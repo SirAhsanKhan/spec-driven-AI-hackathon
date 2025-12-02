@@ -5,7 +5,7 @@
 
 ## Summary
 
-This plan outlines the implementation of a research paper analyzing why major global brands succeed while their competitors fail. The approach is to conduct in-depth research using academic databases and a structured process, managed with a citation tool (Zotero), and to produce a paper with a balanced blend of academic rigor and practical business insights.
+This plan outlines the implementation of a research paper analyzing why major global brands succeed while their competitors fail, AND the creation of a Docusaurus-based documentation website to present this research. The approach involves conducting in-depth research using academic databases and a structured process, managed with a citation tool (Zotero), to produce a paper with a balanced blend of academic rigor and practical business insights. The paper's content will then be integrated into a user-friendly web documentation site.
 
 ## Technical Context
 
@@ -13,10 +13,11 @@ This plan outlines the implementation of a research paper analyzing why major gl
 **Primary Dependencies**:
 - Citation Manager: Zotero
 - Research Databases: Google Scholar, JSTOR, HBR, INSEAD, Wharton, ProQuest
+- Documentation Website: Docusaurus (React, Node.js, Markdown)
 **Storage**: N/A (manuscript stored in git)
 **Testing**: Manual proofreading and peer review
 **Target Platform**: N/A (document)
-**Project Type**: Research Paper
+**Project Type**: Hybrid: Research Paper & Documentation Website
 **Performance Goals**: N/A
 **Constraints**: APA style, 4000-6000 word count
 **Scale/Scope**: 3-5 case studies, 8-12 sources
@@ -39,6 +40,11 @@ specs/001-brand-success-research-paper/
 ```
 
 ### Source Code (repository root)
+```text
+/
+├── website/            # Docusaurus documentation website
+└── [other project files]
+```
 
 *Not applicable for this project, as the output is a research paper, not software.*
 
