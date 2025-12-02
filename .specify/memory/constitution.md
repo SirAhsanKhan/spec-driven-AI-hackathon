@@ -41,6 +41,14 @@ Rigor (peer-reviewed sources preferred).
 - Plagiarism check: 0% tolerance before submission.
 - Writing clarity: Flesch-Kincaid grade 10-12.
 
+## Technology Stack
+
+- **Web Documentation**: Docusaurus (built on React)
+- **Content Format**: Markdown
+- **Citation Management**: Zotero
+- **Scripting/Data Analysis (Optional)**: Python 3.11+
+- **Version Control**: Git
+
 ## Constraints
 
 - Word count: 5,000-7,000 words.
