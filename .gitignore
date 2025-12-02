@@ -1,0 +1,11 @@
+# Environment variables
+.env
+
+# Gemini settings
+.gemini/settings.json
+
+#node modules
+website/node_modules
+
+#docusaurus
+website/.docusaurus
