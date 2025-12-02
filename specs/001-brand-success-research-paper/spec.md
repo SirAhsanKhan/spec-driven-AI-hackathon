@@ -41,7 +41,7 @@ Despite abundant literature on individual companies, there is limited consolidat
 
 A successful research paper will:
 
-- Present **3–5 brand pairs** with clear success–failure contrasts  
+- Present **3–5 brand pairs** with clear success–failure contrasts, with flexibility to select beyond the recommended list for optimal analysis.  
 - Provide **founding-to-present narratives** for each brand  
 - Identify **≥5 universal success factors**  
 - Identify **≥5 universal failure patterns**  
@@ -50,6 +50,7 @@ A successful research paper will:
 - Provide **actionable insights for founders and strategists**  
 - Ensure **all claims are evidence-based**  
 - Deliver **4000–6000 words**, formatted in **Markdown** with **APA citations**  
+- Maintain a **balanced blend of academic theory and practical insights**, catering to both academic and business audiences.  
 
 ---
 
@@ -150,12 +151,14 @@ Researcher verifies all sources and borrows the framework for their work.
 - **FR-009**: Meet 4000–6000 word count.  
 - **FR-010**: Deliver in Markdown with APA citations.  
 - **FR-011**: Respect the scope boundaries listed above.
+- **FR-012**: The paper MUST acknowledge and critically evaluate conflicting academic or industry sources, explaining the rationale for chosen perspectives.
+- **FR-013**: The paper MUST adhere to a recommended high-level structure including: Introduction, Individual Brand Case Studies, Comparative Analysis, Discussion of Universal Patterns, Actionable Insights, and Conclusion.
 
 ---
 
 ## 9. Key Entities
 
-- **Brand**: A major global company with significant market presence.  
+- **Brand**: A major global company, identifiable by its market presence, products, and history, defined by appearing on multiple reputable global brand value lists (e.g., Interbrand, Brand Finance) AND with operations in at least three continents AND annual revenue exceeding $Y billion (where Y will be defined at the start of the paper).  
 - **Competitor**: A brand in the same category demonstrating relative failure.  
 - **CaseStudy**: A structured comparison of Brand vs. Competitor.  
 - **SuccessFactor**: A pattern contributing to longevity and dominance.  
@@ -171,5 +174,25 @@ Researcher verifies all sources and borrows the framework for their work.
 - **SC-003**: ≥8 academic or reputable sources included.  
 - **SC-004**: 80%+ of evaluators rate startup insights as “very relevant.”  
 - **SC-005**: Framework is successfully applied to a new brand pair by 90% of evaluators.
+
+---
+
+## 11. Clarifications
+
+### Session 2025-12-03
+
+- Q: What should be the primary focus of the paper's analysis? → A: A balanced blend of academic theory and practical, actionable business insights.
+
+- Q: Should the selection of brand pairs be limited strictly to the recommended list provided in the input summary, or can other relevant pairs be included? → A: Allow flexibility to choose other relevant pairs.
+
+- Q: How should conflicting academic or industry sources be handled within the paper? → A: Acknowledge and critically evaluate conflicting sources, explaining the reasons for choosing a particular perspective or data set.
+
+- Q: What specific criteria define a "major global brand" for the purpose of this paper, to ensure consistent selection of case studies? → A: Combine multiple quantifiable criteria: E.g., "Brands appearing on multiple reputable global brand value lists (e.g., Interbrand, Brand Finance) AND with operations in at least three continents AND annual revenue exceeding $Y billion."
+
+- Q: What is the expected structure or outline of the paper to ensure coherence and logical flow for the target audience? → A: Provide a recommended high-level structure that includes an introduction, individual brand case studies, a comparative analysis section, discussion of universal patterns, actionable insights, and a conclusion.
+
+
+
+
 
 ---
