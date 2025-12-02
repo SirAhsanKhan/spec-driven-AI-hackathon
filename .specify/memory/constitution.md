@@ -58,7 +58,11 @@ Rigor (peer-reviewed sources preferred).
 This Constitution supersedes all other practices and guidelines. Amendments require documented approval and a migration plan for existing content. All contributions and reviews must verify compliance with these principles.
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 **Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Set initial ratification date | **Last Amended**: 2025-12-02
+=======
+**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Set initial ratification date | **Last Amended**: 2025-12-02
+>>>>>>> Stashed changes
 =======
 **Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Set initial ratification date | **Last Amended**: 2025-12-02
 >>>>>>> Stashed changes
