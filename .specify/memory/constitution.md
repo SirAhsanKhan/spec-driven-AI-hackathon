@@ -51,7 +51,7 @@ Rigor (peer-reviewed sources preferred).
 
 ## Constraints
 
-- Word count: 5,000-7,000 words.
+- Word count: 5,000-7000 words.
 - Minimum 15 sources.
 - Format: PDF with embedded citations.
 
@@ -65,4 +65,3 @@ Rigor (peer-reviewed sources preferred).
 
 This Constitution supersedes all other practices and guidelines. Amendments require documented approval and a migration plan for existing content. All contributions and reviews must verify compliance with these principles.
 
-**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Set initial ratification date | **Last Amended**: 2025-12-02
