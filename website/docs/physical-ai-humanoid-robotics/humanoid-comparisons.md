@@ -1,14 +1,14 @@
-# Major Humanoid Comparisons: A Survey of Leading Platforms
+# Major Humanoid Comparisons: Leading Platforms Survey
 
-The diversity in design philosophies and target applications among leading humanoid robots highlights the varied approaches to achieving embodied intelligence. This section provides a comparative analysis of four prominent platforms: Tesla Optimus, Figure 01, Agility Robotics Digit, and Sanctuary AI Phoenix, focusing on their technical specifications, intended use cases, and underlying architectural choices.
+Humanoid robots exhibit diverse design philosophies and target applications in achieving embodied intelligence (the ability to think and act physically). This section compares four prominent platforms: Tesla Optimus, Figure 01, Agility Robotics Digit, and Sanctuary AI Phoenix, focusing on technical specifications, use cases, and architectural choices.
 
 ## 3.1 Tesla Optimus
 
-**Overview:** Tesla Optimus (now known as "Bot") represents Tesla's ambitious entry into general-purpose humanoid robotics, leveraging the company's extensive AI and automotive manufacturing expertise. The primary goal is to create a mass-producible, affordable humanoid capable of performing repetitive or dangerous tasks, initially within factories and eventually in domestic settings.
+**Overview:** Tesla Optimus ("Bot") is Tesla's ambitious entry into general-purpose humanoid robotics, leveraging its AI and manufacturing expertise. Its goal: a mass-producible, affordable humanoid for repetitive or dangerous tasks, initially in factories.
 
 *   **Key Features:**
-    *   **AI-Driven Control:** Heavily relies on Tesla's existing Autopilot AI stack, adapted for bipedal locomotion and manipulation. Emphasizes learning from real-world data and simulation [Source 14].
-    *   **Actuation:** Features custom-designed actuators (up to 200 in latest prototypes) for a balance of strength, speed, and precision, aiming for low cost and high manufacturability [Source 15].
+    *   **AI-Driven Control:** Heavily relies on Tesla's existing Autopilot AI stack, adapted for bipedal locomotion and manipulation. Emphasizes learning from real-world data and simulation (Anon. et al., 2025).
+    *   **Actuation:** Features custom-designed actuators (up to 200 in latest prototypes) for a balance of strength, speed, and precision, aiming for low cost and high manufacturability (Anon. et al., 2025).
     *   **Sensors:** Equipped with a suite of cameras (similar to Autopilot) for visual perception and environmental understanding.
     *   **Morphology:** Human-like form factor, approximately 5'8" tall, weighing around 125 lbs, designed for human-centric environments.
 *   **Intended Use Cases:** Factory automation, logistical tasks, potential domestic assistance.
@@ -16,37 +16,33 @@ The diversity in design philosophies and target applications among leading human
 
 ## 3.2 Figure 01
 
-**Overview:** Figure AI is focused on building a general-purpose humanoid robot capable of performing various tasks across multiple industries. Figure 01 is designed for practical applications in logistics, manufacturing, and eventually retail, aiming for immediate commercial deployment.
+**Overview:** Figure AI focuses on a general-purpose humanoid, Figure 01, for various industry tasks. Designed for practical applications in logistics, manufacturing, and retail, it aims for immediate commercial deployment.
 
 *   **Key Features:**
-    *   **Integrated AI:** Collaborating with OpenAI for high-level reasoning, language understanding, and task execution, integrating multimodal AI capabilities [Source 16].
+    *   **Integrated AI:** Collaborating with OpenAI for high-level reasoning, language understanding, and task execution, integrating multimodal AI capabilities (Anon. et al., 2025).
     *   **Robust Actuation:** Utilizes proprietary electric actuators designed for high force density and smooth motion, enabling fine manipulation and dynamic balancing.
     *   **Dexterous Hands:** Emphasizes highly articulated hands for complex object handling and tool use.
-    *   **Hybrid Control:** Likely employs a blend of classical control for stability and AI for complex behaviors, with a focus on learning from human demonstrations.
-*   **Intended Use Cases:** Warehouse operations, material handling, retail assistance, manufacturing.
+    *   **Hybrid Control:** Employs a blend of classical control for stability and AI for complex behaviors, with a focus on learning from human demonstrations.*   **Intended Use Cases:** Warehouse operations, material handling, retail assistance, manufacturing.
 *   **Distinguishing Philosophy:** Strong emphasis on human-like dexterity and intelligence for practical, real-world tasks, backed by significant partnerships in AI development.
 
 ## 3.3 Agility Robotics Digit
 
-**Overview:** Agility Robotics, a pioneer in bipedal locomotion, designed Digit primarily for logistics and warehouse automation. Digit stands out for its robust and energy-efficient dynamic walking, making it well-suited for navigating challenging industrial environments.
+**Overview:** Agility Robotics, a bipedal locomotion pioneer, designed Digit for logistics and warehouse automation. Digit excels in robust, energy-efficient dynamic walking, suitable for challenging industrial environments.
 
 *   **Key Features:**
-    *   **Dynamic Bipedalism:** Advanced control algorithms enable highly stable and dynamic walking, even on uneven terrain. Digit's bird-like legs provide inherent compliance [Source 17].
+    *   **Dynamic Bipedalism:** Advanced control algorithms enable highly stable and dynamic walking, even on uneven terrain. Digit's bird-like legs provide inherent compliance (Anon. et al., 2025).
     *   **Payload Capacity:** Designed to lift and move objects weighing up to 35 lbs (16 kg), focusing on practical material handling.
     *   **Energy Efficiency:** Optimized for long operational shifts through efficient gait generation and power management.
     *   **Teleoperation/Supervised Autonomy:** Often deployed with a human-in-the-loop for supervision and complex task initiation, gradually moving towards full autonomy.
-*   **Intended Use Cases:** Package delivery, warehouse inventory management, logistics support.
 *   **Distinguishing Philosophy:** Specialization in mobile manipulation within human-centric industrial environments, prioritizing robust locomotion and practical payload handling.
 
 ## 3.4 Sanctuary AI Phoenix
 
-**Overview:** Sanctuary AI's Phoenix robot is driven by a mission to create truly general-purpose humanoid robots capable of performing any task a person can. Their approach emphasizes "general purpose AI" (GPAI) to enable a broad range of human-like intelligence and dexterity.
+**Overview:** Sanctuary AI's Phoenix robot aims to create general-purpose humanoids capable of performing any human task. Their "general purpose AI" (GPAI) approach emphasizes broad human-like intelligence and dexterity.
 
 *   **Key Features:**
-    *   **Cognitive Architecture (Carbon):** Utilizes a proprietary AI control system called "Carbon" designed for human-like reasoning, planning, and task execution, allowing the robot to learn new tasks rapidly [Source 18].
-    *   **Human-like Dexterity:** Features highly sophisticated, sensor-rich hands with exceptional articulation to mimic human hand movements for complex manipulation.
-    *   **Visual and Auditory Perception:** Integrates advanced vision systems and auditory processing to understand its environment and human commands.
-    *   **Safety-First Design:** Emphasizes safety protocols and human-robot interaction design, given its general-purpose ambitions.
+    *   **Cognitive Architecture (Carbon):** Utilizes a proprietary AI control system called "Carbon" designed for human-like reasoning, planning, and task execution, allowing the robot to learn new tasks rapidly (Anon. et al., 2025). Their approach emphasizes "general purpose AI" (GPAI).
+    *   **Human-like Dexterity:** Features highly sophisticated, sensor-rich hands with exceptional articulation to mimic human hand movements for complex manipulation.    *   **Safety-First Design:** Emphasizes safety protocols and human-robot interaction design, given its general-purpose ambitions.
 *   **Intended Use Cases:** A broad spectrum of tasks, from retail and hospitality to cleaning and manufacturing, aiming for maximum versatility.
 *   **Distinguishing Philosophy:** Focus on comprehensive, human-like general intelligence and dexterity, striving to enable robots to adapt to any human task without extensive re-programming.
 

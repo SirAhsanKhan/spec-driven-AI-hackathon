@@ -21,8 +21,8 @@ All content files are located under `website/docs/physical-ai-humanoid-robotics/
 
 **Purpose**: Confirm the Docusaurus environment is correctly set up for the paper.
 
-- [ ] T001 Build Docusaurus site locally to verify all current markdown files render correctly. (repo root)
-- [ ] T002 Verify `_category_.json` correctly places the paper in the Docusaurus sidebar. `website/docs/physical-ai-humanoid-robotics/_category_.json`
+- [X] T001 Build Docusaurus site locally to verify all current markdown files render correctly. (repo root)
+- [X] T002 Verify `_category_.json` correctly places the paper in the Docusaurus sidebar. `website/docs/physical-ai-humanoid-robotics/_category_.json`
 
 ---
 
@@ -30,8 +30,8 @@ All content files are located under `website/docs/physical-ai-humanoid-robotics/
 
 **Purpose**: General checks and initial refinements that apply across the entire paper.
 
-- [ ] T003 Conduct an initial word count check for the entire paper (all .md files combined) to confirm it is within 4000-6000 words. (`website/docs/physical-ai-humanoid-robotics/*.md`)
-- [ ] T004 Review the entire paper for consistent tone, academic rigor, and adherence to the stated scope and constraints. (`website/docs/physical-ai-humanoid-robotics/*.md`)
+- [X] T003 Conduct an initial word count check for the entire paper (all .md files combined) to confirm it is within 4000-6000 words. (`website/docs/physical-ai-humanoid-robotics/*.md`)
+- [X] T004 Review the entire paper for consistent tone, academic rigor, and adherence to the stated scope and constraints. (`website/docs/physical-ai-humanoid-robotics/*.md`)
 
 ---
 
@@ -43,10 +43,10 @@ All content files are located under `website/docs/physical-ai-humanoid-robotics/
 
 ### Implementation for User Story 1
 
-- [ ] T005 [P] [US1] Refine `introduction.md` for clarity and engagement for a general science audience. `website/docs/physical-ai-humanoid-robotics/introduction.md`
-- [ ] T006 [P] [US1] Review and simplify technical explanations in `technical-foundations.md` to ensure accessibility for general science readers. `website/docs/physical-ai-humanoid-robotics/technical-foundations.md`
-- [ ] T007 [P] [US1] Enhance descriptions of major humanoid robots in `humanoid-comparisons.md` to highlight key differences and advancements understandable by a lay audience. `website/docs/physical-ai-humanoid-robotics/humanoid-comparisons.md`
-- [ ] T008 [US1] Verify that the paper content (especially `introduction.md`, `technical-foundations.md`, `humanoid-comparisons.md`) enables a reader to explain the role of embodiment, control, and perception.
+- [X] T005 [P] [US1] Refine `introduction.md` for clarity and engagement for a general science audience. `website/docs/physical-ai-humanoid-robotics/introduction.md`
+- [X] T006 [P] [US1] Review and simplify technical explanations in `technical-foundations.md` to ensure accessibility for general science readers. `website/docs/physical-ai-humanoid-robotics/technical-foundations.md`
+- [X] T007 [P] [US1] Enhance descriptions of major humanoid robots in `humanoid-comparisons.md` to highlight key differences and advancements understandable by a lay audience. `website/docs/physical-ai-humanoid-robotics/humanoid-comparisons.md`
+- [X] T008 [US1] Verify that the paper content (especially `introduction.md`, `technical-foundations.md`, `humanoid-comparisons.md`) enables a reader to explain the role of embodiment, control, and perception.
 
 ---
 
@@ -58,9 +58,9 @@ All content files are located under `website/docs/physical-ai-humanoid-robotics/
 
 ### Implementation for User Story 2
 
-- [ ] T009 [P] [US2] Deepen technical explanations in `technical-foundations.md` for accuracy and detail relevant to engineering students. `website/docs/physical-ai-humanoid-robotics/technical-foundations.md`
-- [ ] T010 [P] [US2] Add more specific technical details to the comparative analysis of humanoids in `humanoid-comparisons.md` (e.g., actuator types, control philosophies). `website/docs/physical-ai-humanoid-robotics/humanoid-comparisons.md`
-- [ ] T011 [US2] Ensure the paper content (especially `technical-foundations.md` and `humanoid-comparisons.md`) allows a student to identify ≥3 technical breakthrough categories and contrast at least 2 control architectures.
+- [X] T009 [P] [US2] Deepen technical explanations in `technical-foundations.md` for accuracy and detail relevant to engineering students. `website/docs/physical-ai-humanoid-robotics/technical-foundations.md`
+- [X] T010 [P] [US2] Add more specific technical details to the comparative analysis of humanoids in `humanoid-comparisons.md` (e.g., actuator types, control philosophies). `website/docs/physical-ai-humanoid-robotics/humanoid-comparisons.md`
+- [X] T011 [US2] Ensure the paper content (especially `technical-foundations.md` and `humanoid-comparisons.md`) allows a student to identify ≥3 technical breakthrough categories and contrast at least 2 control architectures.
 
 ---
 
@@ -72,9 +72,9 @@ All content files are located under `website/docs/physical-ai-humanoid-robotics/
 
 ### Implementation for User Story 3
 
-- [ ] T012 [P] [US3] Expand upon the drivers of commercial viability in `commercial-viability.md` with more concrete examples or market data insights. `website/docs/physical-ai-humanoid-robotics/commercial-viability.md`
-- [ ] T013 [P] [US3] Elaborate on the barriers to market adoption in `commercial-viability.md`, including potential mitigation strategies. `website/docs/physical-ai-humanoid-robotics/commercial-viability.md`
-- [ ] T014 [US3] Verify that `commercial-viability.md` enables a founder to list ≥3 adoption drivers and ≥3 barriers, and identify at least 2 promising application categories.
+- [X] T012 [P] [US3] Expand upon the drivers of commercial viability in `commercial-viability.md` with more concrete examples or market data insights. `website/docs/physical-ai-humanoid-robotics/commercial-viability.md`
+- [X] T013 [P] [US3] Elaborate on the barriers to market adoption in `commercial-viability.md`, including potential mitigation strategies. `website/docs/physical-ai-humanoid-robotics/commercial-viability.md`
+- [X] T014 [US3] Verify that `commercial-viability.md` enables a founder to list ≥3 adoption drivers and ≥3 barriers, and identify at least 2 promising application categories.
 
 ---
 
@@ -86,24 +86,25 @@ All content files are located under `website/docs/physical-ai-humanoid-robotics/
 
 ### Implementation for User Story 4
 
-- [ ] T015 [P] [US4] Enhance descriptions of safety challenges and AI alignment concepts in `safety-governance.md` with relevant policy or ethical frameworks. `website/docs/physical-ai-humanoid-robotics/safety-governance.md`
-- [ ] T016 [P] [US4] Provide more context or examples for governance and policy considerations in `safety-governance.md`. `website/docs/physical-ai-humanoid-robotics/safety-governance.md`
-- [ ] T017 [US4] Ensure `safety-governance.md` allows an analyst to name ≥5 safety/governance concerns supported by references.
+- [X] T015 [P] [US4] Enhance descriptions of safety challenges and AI alignment concepts in `safety-governance.md` with relevant policy or ethical frameworks. `website/docs/physical-ai-humanoid-robotics/safety-governance.md`
+- [X] T016 [P] [US4] Provide more context or examples for governance and policy considerations in `safety-governance.md`. `website/docs/physical-ai-humanoid-robotics/safety-governance.md`
+- [X] T017 [US4] Ensure `safety-governance.md` allows an analyst to name ≥5 safety/governance concerns supported by references.
 
 ---
 
 ## Final Phase: Polish & Cross-Cutting Concerns
 
-**Purpose**: Final quality checks, source integration, and overall paper finalization.
+**Purpose**: Final quality checks, source integration, and overall paper finalization, incorporating compliance and quality assurance requirements.
 
-- [ ] T018 Integrate actual APA-formatted academic and industry sources, replacing all `[Source X]` placeholders across all `.md` files. (`website/docs/physical-ai-humanoid-robotics/*.md`)
-- [ ] T019 Create an APA-formatted bibliography section (e.g., in a new `references.md` file or appended to `conclusion.md`).
-- [ ] T020 Perform a comprehensive fact-checking review for all claims and data in the entire paper. (`website/docs/physical-ai-humanoid-robotics/*.md`)
-- [ ] T021 Conduct a plagiarism check on the entire paper. (`website/docs/physical-ai-humanoid-robotics/*.md`)
-- [ ] T022 Final review for grammar, spelling, punctuation, and academic writing style across all `.md` files. (`website/docs/physical-ai-humanoid-robotics/*.md`)
-- [ ] T023 Final word count verification to ensure strict adherence to 4000-6000 words. (`website/docs/physical-ai-humanoid-robotics/*.md`)
-- [ ] T024 Perform a final build of the Docusaurus site and thorough review of all pages for rendering, navigation, and mobile responsiveness. (repo root)
-- [ ] T025 Confirm all success criteria from `spec.md` (SC-001 to SC-007) are fully met.
+- [X] T018 Integrate actual APA-formatted academic and industry sources, replacing all `[Source X]` placeholders across all `.md` files. (`website/docs/physical-ai-humanoid-robotics/*.md`)
+- [X] T019 Create an APA-formatted bibliography section (e.g., in a new `references.md` file or appended to `conclusion.md`).
+- [X] T020 [P] Individually fact-check each technical claim and statistic in `website/docs/physical-ai-humanoid-robotics/*.md` against authoritative sources.
+- [X] T021 Conduct a plagiarism check on the entire paper using a suitable tool. (`website/docs/physical-ai-humanoid-robotics/*.md`)
+- [X] T022 Final review for grammar, spelling, punctuation, clarity, and academic writing style across all `.md` files. (`website/docs/physical-ai-humanoid-robotics/*.md`)
+- [X] T023 Adjust content length in `website/docs/physical-ai-humanoid-robotics/*.md` to meet the 4000-6000 word count target.
+- [X] T024 Verify the final word count for strict adherence to 4000-6000 words. (`website/docs/physical-ai-humanoid-robotics/*.md`)
+- [ ] T025 Perform a final build of the Docusaurus site and thorough review of all pages for rendering, navigation, and mobile responsiveness. (repo root)
+- [ ] T026 Confirm all success criteria from `spec.md` (SC-001 to SC-007) are fully met by the final paper content.
 
 ---
 
