@@ -1,198 +1,168 @@
-# Feature Specification: Research Paper on Why Major Global Brands Succeed While Their Competitors Fail
-
-**Feature Branch**: `001-brand-success-research-paper`  
-**Created**: 2025-12-03  
-**Status**: Draft  
-
----
+# Research Paper Specification: Physical AI & Humanoid Robotics (2025–2030)
 
 ## 1. Overview
 
-This specification outlines the requirements, constraints, success criteria, and user scenarios for developing a research paper that analyzes why major global brands achieve long-term dominance while their direct competitors fail or underperform. The paper will rely on comparative case studies and academically rigorous sources to deliver insights for business students, strategists, founders, and researchers.
+This specification defines the requirements, scope, constraints, and evaluation criteria for developing a unified research paper analyzing the state of Physical AI and humanoid robotics from 2025–2030, with three integrated focus areas:
 
----
+*   **State of the Field** — technical progress in embodiment, locomotion, actuation, perception, and control.
+*   **Market Adoption & Commercial Viability** — emerging applications, economic drivers, cost curves, deployment readiness, and adoption bottlenecks.
+*   **Safety, Alignment & Governance** — risk categories, safety mechanisms, policy considerations, and alignment strategies for physical AI systems.
+
+The paper will incorporate comparative analysis of major humanoid robots and target general science readers as well as engineering students seeking an intermediate-depth technical overview.
 
 ## 2. Problem Statement
 
-Despite abundant literature on individual companies, there is limited consolidated analysis comparing **success–failure brand pairs** across industries. This paper aims to fill that gap by presenting structured, academically grounded comparisons that identify universal patterns in brand longevity, strategic missteps, and market adaptation.
+Rapid advances in AI, mechatronics, and control have accelerated the development of humanoid robots and embodied AI systems. New entrants such as Tesla, Figure, Agility, Unitree, Sanctuary, and others have positioned humanoids as commercially viable.
 
----
+**However:**
+*   The field lacks a consolidated mid-decade review combining technical progress, commercialization signals, and governance considerations.
+*   Existing literature is fragmented across robotics papers, corporate demos, industry reports, and policy discussions.
+*   There is no unified framework comparing current humanoid robot architectures, market readiness, and safety risks.
+
+This paper will fill that gap by delivering a structured, evidence-based, and accessible synthesis of the field as it stands in 2025–2030.
 
 ## 3. Input Summary
 
-- Topic: Why major global brands succeed while competitors fail  
-- Audience: Business students, corporate strategists, entrepreneurship researchers, early-stage founders  
-- Focus Areas:
-  - Brand origins
-  - Strategic decisions across growth stages
-  - Innovation and adaptability
-  - Comparative case studies
-  - Universal success and failure patterns  
-
-- Recommended Brand Pairs:
-  - **Tech**: Apple vs. Nokia, Amazon vs. Sears, Netflix vs. Blockbuster  
-  - **Food & beverage**: McDonald's vs. Burger Chef, Starbucks vs. Second Cup  
-  - **Retail**: Walmart vs. Kmart, Zara vs. GAP  
-  - **Lifestyle/Fashion**: Nike vs. Reebok  
-
----
+*   **Topic:** Physical AI & Humanoid Robotics (2025–2030)
+*   **Audience:** General science readers + engineering students (intermediate technical depth)
+*   **Focus Areas:**
+    *   Embodiment & morphology
+    *   Locomotion systems
+    *   Actuation strategies
+    *   Perception stacks
+    *   Control architectures (classical & AI-driven)
+    *   Major humanoid robot comparisons
+    *   Commercial viability and adoption signals
+    *   Safety, alignment, and governance of physical AI systems
+*   **Recommended Humanoid Robots for Comparison:**
+    *   Tesla Optimus
+    *   Figure 01
+    *   Agility Robotics Digit
+    *   Unitree H1 / G1
+    *   Sanctuary AI Phoenix
+    *   Fourier GR Series
+    *(These may be adjusted based on data availability and clarity of comparison.)*
 
 ## 4. Success Criteria
 
 A successful research paper will:
 
-- Present **3–5 brand pairs** with clear success–failure contrasts, with flexibility to select beyond the recommended list for optimal analysis.  
-- Provide **founding-to-present narratives** for each brand  
-- Identify **≥5 universal success factors**  
-- Identify **≥5 universal failure patterns**  
-- Incorporate **8–12 peer-reviewed academic sources** + reputable industry analyses  
-- Deliver a **comparative framework** applicable to any brand pair  
-- Provide **actionable insights for founders and strategists**  
-- Ensure **all claims are evidence-based**  
-- Deliver **4000–6000 words**, formatted in **Markdown** with **APA citations**  
-- Maintain a **balanced blend of academic theory and practical insights**, catering to both academic and business audiences.  
-
----
+1.  Provide a clear 2025–2030 landscape overview of Physical AI & humanoids.
+2.  Include comparative analysis of **≥4 major humanoid robots**.
+3.  Explain key advances in: Embodiment, Locomotion, Actuation, Perception, Control.
+4.  Identify **≥5 drivers** of commercial viability.
+5.  Identify **≥5 barriers** to market adoption.
+6.  Cover **≥5 categories** of safety, alignment, or governance concerns.
+7.  Include **8–12 academically credible or industry-reputable sources**.
+8.  Deliver a scalable analytical framework for assessing future humanoids.
+9.  Present **4000–6000 words** in Markdown with APA citations.
+10. Maintain accessibility for science readers while preserving engineering depth.
+11. Ensure all claims are evidence-based and traceable.
 
 ## 5. Constraints
 
-- **Word Count**: 4000–6000  
-- **Format**: Markdown (APA citation style)  
-- **Sources**:
-  - Peer-reviewed journals (marketing, innovation, strategic management)
-  - Business school cases (Harvard, Wharton, INSEAD)
-  - Industry reports (McKinsey, BCG, Deloitte)
-  - Books from established authorities (Kotler, Collins, Ries & Trout)
-
-### Scope Exclusions (NOT included):
-- Complete history of global commerce  
-- Exhaustive competitor listings  
-- Deep financial modeling or granular market data  
-- Branding how-to guides  
-- Legal or political analysis unless directly relevant  
-- Implementation playbooks for corporate strategy  
-
----
+*   **Word Count:** 4000–6000
+*   **Format:** Markdown (APA citations)
+*   **Source Types:**
+    *   Robotics and embodied AI research (RSS, ICRA, CoRL, Nature Robotics)
+    *   Industry technical documentation (Tesla AI Day, Figure updates, etc.)
+    *   Market analyses (Goldman Sachs, McKinsey, ARK Invest)
+    *   Policy and safety frameworks (OECD, EU AI Act updates, NIST, ISO robotics standards)
+*   **Out of Scope (NOT included):**
+    *   Full history of robotics since 1950.
+    *   Deep mathematics of control theory.
+    *   Detailed mechanical CAD or hardware breakdowns.
+    *   Step-by-step implementation guides for robot design.
+    *   Alignment of purely digital (non-physical) AI systems.
+    *   Long-form legal analyses.
 
 ## 6. User Scenarios & Testing
 
-### **User Story 1 — Business Student Research (Priority: P1)**
+### User Story 1 — Science Enthusiast Understanding the Field (P1)
+*A general science reader wants a clear overview of humanoid robotics progress.*
+*   **Independent Test:** Reader can summarize recent advancements and name key humanoid systems.
+*   **Acceptance Criteria:**
+    1.  Reader can explain the role of embodiment, control, and perception.
+    2.  Reader can describe differences among **≥4 humanoid robots**.
 
-A business student needs a structured, academically rigorous comparison of brand success and failure.
+### User Story 2 — Engineering Student Learning Technical Foundations (P1)
+*A student needs structured insights into how modern humanoids work.*
+*   **Independent Test:** Student can compare locomotion, actuation, and control strategies.
+*   **Acceptance Criteria:**
+    1.  Student can identify **≥3 technical breakthrough categories**.
+    2.  Student can contrast at least 2 control architectures.
 
-**Independent Test**:  
-The student can apply the comparative framework to a new brand pair not covered in the paper.
+### User Story 3 — Startup Founder Evaluating Commercial Viability (P2)
+*A founder wants to understand deployment economics and readiness.*
+*   **Independent Test:** Founder can judge whether humanoids are commercially viable by 2030.
+*   **Acceptance Criteria:**
+    1.  Founder can list **≥3 adoption drivers** and **≥3 barriers**.
+    2.  Founder can identify at least 2 promising application categories.
 
-**Acceptance Criteria**:
-1. After reading, the student can list ≥5 success factors and ≥5 failure patterns.  
-2. The student can analyze a new brand pair using the provided framework.
-
----
-
-### **User Story 2 — Corporate Strategist Insight (Priority: P2)**
-
-A strategist wants actionable insights to apply to long-term planning.
-
-**Independent Test**:  
-The strategist can derive relevant, applicable insights for their company.
-
-**Acceptance Criteria**:
-1. After reading the insights section, the strategist can list ≥3 applicable recommendations for their firm.
-
----
-
-### **User Story 3 — Early-Stage Founder Guidance (Priority: P2)**
-
-A founder wants to understand brand longevity to avoid early strategic mistakes.
-
-**Independent Test**:  
-Founder can evaluate risks/opportunities in their own launch strategy.
-
-**Acceptance Criteria**:
-1. Founder can articulate at least 2–3 brand longevity risks for their product and how to mitigate them.
-
----
-
-### **User Story 4 — Academic Research Support (Priority: P3)**
-
-A researcher needs a citation-rich paper to support their own studies.
-
-**Independent Test**:  
-Researcher verifies all sources and borrows the framework for their work.
-
-**Acceptance Criteria**:
-1. Bibliography contains **8–12 peer-reviewed** sources with **accurate APA formatting**.
-
----
+### User Story 4 — Policy/Research Analyst Reviewing Safety & Governance (P3)
+*Analyst needs an overview of safety, alignment, and governance issues.*
+*   **Independent Test:** Analyst can identify relevant risk classes.
+*   **Acceptance Criteria:**
+    1.  Analyst can name **≥5 safety/governance concerns** supported by references.
 
 ## 7. Edge Cases
 
-- **Poorly Documented Origins**  
-  If a brand lacks accessible historical data, the paper will state limitations and rely on the most reputable available sources.
-
-- **Complex Brand Histories**  
-  In cases of mergers or multi-division histories, the paper will focus strictly on the segment relevant to the success-failure comparison.
-
-- **Relative Failure Definition**  
-  Failure may include decline, stagnation, or erosion of dominance—not exclusively bankruptcy.
-
----
+*   **Insufficient public technical data:** Proprietary systems (e.g., Tesla’s internal control stack) may lack detail; the paper will document limitations transparently.
+*   **Rapid changes (late-breaking robotics demos):** New capabilities may emerge during the writing window; the paper will specify a cutoff date for included developments.
+*   **Hype vs. evidence:** Claims without technical demonstration will be labeled as speculative.
+*   **Divergent predictions:** Conflicting economic forecasts will be compared and contextualized.
 
 ## 8. Functional Requirements
 
-- **FR-001**: Include 3–5 major brands with clear competitor comparisons.  
-- **FR-002**: Provide founding-to-present narratives for each brand.  
-- **FR-003**: Identify ≥5 universal success factors.  
-- **FR-004**: Identify ≥5 universal failure patterns.  
-- **FR-005**: Include 8–12 academic sources + reputable case studies.  
-- **FR-006**: Provide a comparative analytical framework.  
-- **FR-007**: Include an actionable insights section for startups.  
-- **FR-008**: Support all claims with evidence.  
-- **FR-009**: Meet 4000–6000 word count.  
-- **FR-010**: Deliver in Markdown with APA citations.  
-- **FR-011**: Respect the scope boundaries listed above.
-- **FR-012**: The paper MUST acknowledge and critically evaluate conflicting academic or industry sources, explaining the rationale for chosen perspectives.
-- **FR-013**: The paper MUST adhere to a recommended high-level structure including: Introduction, Individual Brand Case Studies, Comparative Analysis, Discussion of Universal Patterns, Actionable Insights, and Conclusion.
-
----
+*   **FR-001:** Include **≥4 major humanoid robots** in comparison.
+*   **FR-002:** Discuss embodiment, locomotion, actuation, perception, control.
+*   **FR-003:** Provide a 2025–2030 state-of-the-field overview.
+*   **FR-004:** Identify **≥5 commercialization drivers**.
+*   **FR-005:** Identify **≥5 adoption barriers**.
+*   **FR-006:** Present **≥5 safety, alignment, and governance issues**.
+*   **FR-007:** Include **8–12 credible academic or industry sources**.
+*   **FR-008:** Deliver **4000–6000 words**.
+*   **FR-009:** Use Markdown with **APA citations**.
+*   **FR-010:** Provide a comparative evaluation framework for humanoid systems.
+*   **FR-011:** Critically evaluate conflicting research, technical claims, or forecasts.
+*   **FR-012:** High-level structure must include:
+    1.  Introduction
+    2.  Technical Foundations
+    3.  Major Humanoid Comparisons
+    4.  Commercial Viability Analysis
+    5.  Safety & Governance
+    6.  Conclusion
 
 ## 9. Key Entities
 
-- **Brand**: A major global company, identifiable by its market presence, products, and history, defined by appearing on multiple reputable global brand value lists (e.g., Interbrand, Brand Finance) AND with operations in at least three continents AND annual revenue exceeding $Y billion (where Y will be defined at the start of the paper).  
-- **Competitor**: A brand in the same category demonstrating relative failure.  
-- **CaseStudy**: A structured comparison of Brand vs. Competitor.  
-- **SuccessFactor**: A pattern contributing to longevity and dominance.  
-- **FailurePattern**: A strategic mistake or rigidity contributing to decline.  
-- **Source**: Any academically credible journal, book, or industry report.
-
----
+*   **HumanoidRobot:** A bipedal robot with anthropomorphic morphology suitable for general-purpose tasks.
+*   **Subsystem:** A technical domain such as locomotion, actuation, perception, or control.
+*   **Capability:** A measurable or demonstrated trait (e.g., walking speed, manipulation ability).
+*   **MarketDriver:** A factor increasing adoption likelihood (e.g., labor shortages).
+*   **Barrier:** Technical, economic, or regulatory limitations.
+*   **SafetyRisk:** A physical, operational, or systemic risk introduced by embodied AI.
+*   **Source:** Academic paper, industry report, regulatory document, or credible technical briefing.
 
 ## 10. Measurable Outcomes (Success Metrics)
 
-- **SC-001**: Word count between 4000–6000 words.  
-- **SC-002**: All citations in APA format.  
-- **SC-003**: ≥8 academic or reputable sources included.  
-- **SC-004**: 80%+ of evaluators rate startup insights as “very relevant.”  
-- **SC-005**: Framework is successfully applied to a new brand pair by 90% of evaluators.
-
----
+*   **SC-001:** Paper satisfies **4000–6000 word count**.
+*   **SC-002:** All citations formatted in **APA style**.
+*   **SC-003:** Includes **≥8 academic/industry sources**.
+*   **SC-004:** **≥80% of test readers** correctly explain major technologies.
+*   **SC-005:** **≥80% can distinguish capabilities** of major humanoids.
+*   **SC-006:** **≥90% understand** at least 3 commercialization drivers and 3 barriers.
+*   **SC-007:** **≥80% can list ≥3 safety concerns** after reading.
 
 ## 11. Clarifications
+*Session 2025-12-03*
 
-### Session 2025-12-03
-
-- Q: What should be the primary focus of the paper's analysis? → A: A balanced blend of academic theory and practical, actionable business insights.
-
-- Q: Should the selection of brand pairs be limited strictly to the recommended list provided in the input summary, or can other relevant pairs be included? → A: Allow flexibility to choose other relevant pairs.
-
-- Q: How should conflicting academic or industry sources be handled within the paper? → A: Acknowledge and critically evaluate conflicting sources, explaining the reasons for choosing a particular perspective or data set.
-
-- Q: What specific criteria define a "major global brand" for the purpose of this paper, to ensure consistent selection of case studies? → A: Combine multiple quantifiable criteria: E.g., "Brands appearing on multiple reputable global brand value lists (e.g., Interbrand, Brand Finance) AND with operations in at least three continents AND annual revenue exceeding $Y billion."
-
-- Q: What is the expected structure or outline of the paper to ensure coherence and logical flow for the target audience? → A: Provide a recommended high-level structure that includes an introduction, individual brand case studies, a comparative analysis section, discussion of universal patterns, actionable insights, and a conclusion.
-
-
-
-
-
----
+*   **Q:** Should the paper be unified or split into multiple documents?
+    *   **A:** Unified single paper with three integrated sections.
+*   **Q:** Who is the intended audience?
+    *   **A:** General science readers + engineering students.
+*   **Q:** Should the paper compare robot hardware or architectures?
+    *   **A:** Yes — compare major humanoid robots (minimum of four).
+*   **Q:** Should speculative claims be included?
+    *   **A:** Yes, but they must be explicitly marked as speculative.
+*   **Q:** How should conflicting sources be treated?
+    *   **A:** Evaluate differences transparently and justify preferred interpretation.
