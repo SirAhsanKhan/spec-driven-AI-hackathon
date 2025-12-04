@@ -103,8 +103,8 @@ All content files are located under `website/docs/physical-ai-humanoid-robotics/
 - [X] T022 Final review for grammar, spelling, punctuation, clarity, and academic writing style across all `.md` files. (`website/docs/physical-ai-humanoid-robotics/*.md`)
 - [X] T023 Adjust content length in `website/docs/physical-ai-humanoid-robotics/*.md` to meet the 4000-6000 word count target.
 - [X] T024 Verify the final word count for strict adherence to 4000-6000 words. (`website/docs/physical-ai-humanoid-robotics/*.md`)
-- [ ] T025 Perform a final build of the Docusaurus site and thorough review of all pages for rendering, navigation, and mobile responsiveness. (repo root)
-- [ ] T026 Confirm all success criteria from `spec.md` (SC-001 to SC-007) are fully met by the final paper content.
+- [X] T025 Perform a final build of the Docusaurus site and thorough review of all pages for rendering, navigation, and mobile responsiveness. (repo root)
+- [X] T026 Confirm all success criteria from `spec.md` (SC-001 to SC-007) are fully met by the final paper content.
 
 ---
 
