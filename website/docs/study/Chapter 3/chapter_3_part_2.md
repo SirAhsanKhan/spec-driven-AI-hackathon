@@ -117,9 +117,9 @@ By the end of this chapter, you can:
 
 ## 3.10 Additional Resources
 ### Official Documentation
-- Gazebo Docs
-- Unity Robotics Hub
-- ROS2 Gazebo Integration
+- Gazebo Docs http://gazebosim.org/docs
+- Unity Robotics Hub https://github.com/Unity-Technologies/Unity-Robotics-Hub
+- ROS2 Gazebo Integration https://github.com/ros-simulation/gazebo_ros_pkgs
 
 ### Research Papers
 - Todorov et al., *MuJoCo*
