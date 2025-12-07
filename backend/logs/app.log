@@ -1,0 +1,83 @@
+2025-12-07 16:34:24,546 - utils.debugging - INFO - Application started at: 2025-12-07 16:34:24.546343
+2025-12-07 16:34:24,547 - utils.debugging - INFO - Database URL: sqlite:///./rag_chatbot.db
+2025-12-07 16:34:24,547 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-07 16:34:24,548 - utils.debugging - INFO - Process ID: 9716
+2025-12-07 16:34:33,383 - utils.debugging - INFO - Application started at: 2025-12-07 16:34:33.383434
+2025-12-07 16:34:33,383 - utils.debugging - INFO - Database URL: sqlite:///./rag_chatbot.db
+2025-12-07 16:34:33,383 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-07 16:34:33,391 - utils.debugging - INFO - Process ID: 1488
+2025-12-07 16:34:33,391 - utils.debugging - INFO - Memory usage: 158.69 MB
+2025-12-07 16:34:34,393 - utils.debugging - INFO - CPU usage: 84.0%
+2025-12-07 16:34:34,393 - utils.debugging - INFO - Registered endpoints:
+2025-12-07 16:34:34,393 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-07 16:34:34,393 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-07 16:34:34,393 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-07 16:34:34,396 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-07 16:36:44,102 - utils.exception_handlers - ERROR - HTTP error occurred: 404 - Not Found
+2025-12-07 16:39:03,543 - services.scraping_service - INFO - Successfully scraped content from https://spec-driven-ai-hackathon.vercel.app/docs/physical-ai-humanoid-robotics/commercial-viability, length: 5649 characters
+2025-12-07 16:39:03,554 - services.content_service - INFO - Cleaned content: original length 5644 characters
+2025-12-07 16:39:03,674 - database.content_repository - INFO - Stored content entity with ID: 408c1e42-1d3c-4786-a6b0-a5f4a354dc83
+2025-12-07 16:39:04,414 - services.content_service - INFO - Created 2 content chunks from content
+2025-12-07 16:39:04,488 - database.content_repository - INFO - Stored 2 content chunks for content ID: 408c1e42-1d3c-4786-a6b0-a5f4a354dc83
+2025-12-07 16:39:04,494 - api.initialization_api - ERROR - Error during content initialization: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-12-07 16:41:33,470 - utils.exception_handlers - ERROR - HTTP error occurred: 405 - Method Not Allowed
+2025-12-07 16:43:50,912 - utils.debugging - INFO - Application started at: 2025-12-07 16:43:50.912869
+2025-12-07 16:43:50,913 - utils.debugging - INFO - Database URL: sqlite:///./rag_chatbot.db
+2025-12-07 16:43:50,913 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-07 16:43:50,914 - utils.debugging - INFO - Process ID: 16588
+2025-12-07 16:43:50,915 - utils.debugging - INFO - Memory usage: 160.52 MB
+2025-12-07 16:43:51,919 - utils.debugging - INFO - CPU usage: 91.2%
+2025-12-07 16:43:51,920 - utils.debugging - INFO - Registered endpoints:
+2025-12-07 16:43:51,921 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-07 16:43:51,921 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-07 16:43:51,922 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-07 16:43:51,922 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-07 16:45:25,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 16:45:25,616 - services.vector_service - ERROR - Qdrant client not available, cannot perform search
+2025-12-07 16:45:25,616 - services.retrieval_service - INFO - Found 0 relevant content chunks
+2025-12-07 16:45:25,620 - api.query_api - INFO - Processed query: string...
+2025-12-07 16:48:17,226 - utils.debugging - INFO - Application started at: 2025-12-07 16:48:17.226318
+2025-12-07 16:48:17,234 - utils.debugging - INFO - Database URL: sqlite:///./rag_chatbot.db
+2025-12-07 16:48:17,236 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-07 16:48:17,238 - utils.debugging - INFO - Process ID: 13216
+2025-12-07 16:48:17,238 - utils.debugging - INFO - Memory usage: 163.00 MB
+2025-12-07 16:48:18,241 - utils.debugging - INFO - CPU usage: 96.6%
+2025-12-07 16:48:18,241 - utils.debugging - INFO - Registered endpoints:
+2025-12-07 16:48:18,241 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-07 16:48:18,241 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-07 16:48:18,246 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-07 16:48:18,246 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-07 16:48:57,668 - utils.exception_handlers - ERROR - HTTP error occurred: 405 - Method Not Allowed
+2025-12-07 17:08:31,902 - utils.debugging - INFO - Application started at: 2025-12-07 17:08:31.902948
+2025-12-07 17:08:31,914 - utils.debugging - INFO - Database URL: sqlite:///./rag_chatbot.db
+2025-12-07 17:08:31,915 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-07 17:08:31,916 - utils.debugging - INFO - Process ID: 15444
+2025-12-07 17:08:31,917 - utils.debugging - INFO - Memory usage: 173.52 MB
+2025-12-07 17:08:32,920 - utils.debugging - INFO - CPU usage: 97.3%
+2025-12-07 17:08:32,976 - utils.debugging - INFO - Registered endpoints:
+2025-12-07 17:08:33,103 - utils.debugging - INFO -   GET, HEAD /openapi.json
+2025-12-07 17:08:33,105 - utils.debugging - INFO -   GET, HEAD /docs
+2025-12-07 17:08:33,113 - utils.debugging - INFO -   GET, HEAD /docs/oauth2-redirect
+2025-12-07 17:08:33,115 - utils.debugging - INFO -   GET, HEAD /redoc
+2025-12-07 17:08:33,291 - utils.exception_handlers - ERROR - HTTP error occurred: 405 - Method Not Allowed
+2025-12-07 17:59:04,949 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 17:59:05,028 - services.vector_service - ERROR - Qdrant client not available, cannot perform search
+2025-12-07 17:59:05,040 - services.retrieval_service - INFO - Found 0 relevant content chunks
+2025-12-07 17:59:05,045 - api.query_api - INFO - Processed query: hey theer tell me about physical ai...
+2025-12-07 17:59:22,014 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 17:59:22,016 - services.vector_service - ERROR - Qdrant client not available, cannot perform search
+2025-12-07 17:59:22,016 - services.retrieval_service - INFO - Found 0 relevant content chunks
+2025-12-07 17:59:22,016 - api.query_api - INFO - Processed query: what is hmonaoid robots...
+2025-12-07 18:00:13,222 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-07 18:00:13,222 - services.vector_service - ERROR - Qdrant client not available, cannot perform search
+2025-12-07 18:00:13,225 - services.retrieval_service - INFO - Found 0 relevant content chunks
+2025-12-07 18:00:13,225 - api.query_api - INFO - Processed query: are you working???...
