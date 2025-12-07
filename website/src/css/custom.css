@@ -28,3 +28,24 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Chat component specific styles */
+.chat-container {
+  margin: 20px auto;
+  max-width: 800px;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .chat-container {
+    height: 500px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chat-container {
+    height: 400px;
+    margin: 5px;
+  }
+}

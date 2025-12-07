@@ -86,7 +86,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/ahsan.jpg',
         },
         items: [
           {
@@ -95,6 +95,7 @@ const config = {
             position: 'left',
             label: 'Research Paper',
           },
+          {to: '/chat', label: 'Chatbot', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -153,6 +154,12 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  // Define client modules to be loaded globally
+  clientModules: [
+    require.resolve('./src/rag-chatbot-config.js'),
+  ],
+
 };
 
 export default config;
