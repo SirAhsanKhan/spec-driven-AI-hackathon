@@ -1,8 +1,11 @@
 # Environment variables
 .env
+backend/.env
+.venv
 
 # Gemini settings
 .gemini/settings.json
+.qwen/settings.json
 
 #node modules
 website/node_modules
