@@ -191,6 +191,29 @@ This implementation plan is evaluated against the RAG Chatbot Development Consti
 3. Add browser storage for chat history
 4. Implement session management
 
+### 1.4 Frontend UI/UX Rework
+- **Decision**: Redesign chatbot UI from a standalone page to a floating, accessible component on documentation pages.
+  - **Rationale**: Improves user experience by making the chatbot readily available across the site without navigating away from documentation. Addresses user feedback regarding current UI presentation.
+  - **Approach**: Implement a floating chat bubble that, when clicked, opens a dedicated chat window/modal.
+  - **Alternatives Considered**:
+    - Embedding chat directly into the sidebar (rejected: can be intrusive, reduces content area).
+    - Dedicated full-page chat (rejected: current design, user found "pathetic").
+
+#### 1.4.1 Floating Chat Component
+- **Component**: `FloatingChatButton.js` (new) - Displays a chat icon, opens/closes chat window.
+- **Placement**: Integrated into Docusaurus root layout via swizzling to ensure presence on all pages.
+
+#### 1.4.2 Chat Window/Modal
+- **Component**: `ChatWindow.js` (new) - Contains the main `ChatComponent.js` logic.
+- **Functionality**: Toggles visibility, handles open/close state, displays `ChatComponent`.
+
+#### 1.4.3 Chatbot UI Styling
+- **Goal**: Improve visual appeal and responsiveness.
+- **Approach**: Leverage existing `ChatComponent.css` and introduce new styles as needed for `FloatingChatButton` and `ChatWindow`. Adhere to Docusaurus theme for consistency.
+
+#### 1.4.4 API Interaction
+- **Component**: Reuse `ApiClient.js` for backend communication.
+
 ## Phase 2: Implementation Plan
 
 ### 2.1 Development Environment Setup
@@ -219,10 +242,14 @@ This implementation plan is evaluated against the RAG Chatbot Development Consti
 - Ensure content persistence for static data
 
 ### 2.5 Frontend Integration
-- Create React component for chat interface
-- Integrate with Docusaurus website as embedded component
-- Implement browser storage for chat history
-- Add responsive design elements
+- **Rework**: Implement new UI as per "1.4 Frontend UI/UX Rework" plan.
+- Create `FloatingChatButton.js` component for persistent access.
+- Create `ChatWindow.js` component to house `ChatComponent.js`.
+- Integrate `FloatingChatButton` into Docusaurus root layout (via swizzling).
+- Remove `website/src/pages/chat.js` and update `docusaurus.config.js` to remove the dedicated chatbot page link.
+- Update `ChatComponent.css` and create new CSS for `FloatingChatButton` and `ChatWindow` for improved styling and responsiveness.
+- Implement browser storage for chat history (as previously planned).
+- Add responsive design elements (as previously planned).
 
 ### 2.6 Testing
 - Unit tests for core processing functions
