@@ -108,15 +108,19 @@ Implement the chatbot UI integrated within the Docusaurus website that allows us
 
 ### Implementation Tasks
 
-- [ ] T033 Create React chat component structure in website/src/components/
-- [ ] T034 Implement chat message display with clear distinction between user and system messages
-- [ ] T035 Add source citation display with links to original content in the UI
-- [ ] T036 Implement chat history persistence in browser local storage
-- [ ] T037 Create API client for connecting to backend endpoints
-- [ ] T038 Add loading indicators and visual feedback for processing states
-- [ ] T039 [P] Implement responsive design for mobile and desktop compatibility
-- [ ] T040 Create session management functionality using browser storage only (no server-side storage) in frontend
-- [ ] T041 Add error handling and display for API failures in UI
+- [ ] T033 Implement `FloatingChatButton.js` component for persistent access across all Docusaurus pages.
+- [ ] T034 Implement `ChatWindow.js` component, which will house the `ChatComponent.js` and provide open/close functionality.
+- [ ] T035 Swizzle Docusaurus `Layout` component to integrate `FloatingChatButton` globally.
+- [ ] T036 Remove `website/src/pages/chat.js` and update `docusaurus.config.js` to remove the dedicated chatbot page link.
+- [ ] T037 Refine `ChatComponent.css` and create new CSS for `FloatingChatButton` and `ChatWindow` for improved styling and responsiveness.
+- [ ] T038 Implement chat message display with clear distinction between user and system messages (retaining previous T034 goal).
+- [ ] T039 Add source citation display with links to original content in the UI (retaining previous T035 goal).
+- [ ] T040 Implement chat history persistence in browser local storage (retaining previous T036 goal).
+- [ ] T041 Create API client for connecting to backend endpoints (retaining previous T037 goal).
+- [ ] T042 Add loading indicators and visual feedback for processing states (retaining previous T038 goal).
+- [ ] T043 [P] Implement responsive design for mobile and desktop compatibility (retaining previous T039 goal).
+- [ ] T044 Create session management functionality using browser storage only (no server-side storage) in frontend (retaining previous T040 goal).
+- [ ] T045 Add error handling and display for API failures in UI (retaining previous T041 goal).
 
 ---
 
@@ -130,15 +134,15 @@ Complete all API endpoints and integrate all components for full system function
 
 ### Implementation Tasks
 
-- [ ] T042 Complete API documentation with OpenAPI/Swagger in FastAPI
-- [ ] T043 Implement all error handling and response formatting consistently
-- [ ] T044 Add rate limiting and request validation middleware
-- [ ] T045 Create health check endpoint for system monitoring
-- [ ] T046 Integrate frontend component into Docusaurus page/layout
-- [ ] T047 [P] Add request logging utilities
-- [ ] T048 Create automated tests for all API endpoints (excluding user session tests per privacy requirements)
-- [ ] T049 Create fallback mechanism when OpenAI API fails
-- [ ] T050 Create fallback mechanism when Qdrant API fails
+- [ ] T046 Complete API documentation with OpenAPI/Swagger in FastAPI
+- [ ] T047 Implement all error handling and response formatting consistently
+- [ ] T048 Add rate limiting and request validation middleware
+- [ ] T049 Create health check endpoint for system monitoring
+- [ ] T050 Integrate frontend component into Docusaurus page/layout
+- [ ] T051 [P] Add request logging utilities
+- [ ] T052 Create automated tests for all API endpoints (excluding user session tests per privacy requirements)
+- [ ] T053 Create fallback mechanism when OpenAI API fails
+- [ ] T054 Create fallback mechanism when Qdrant API fails
 
 ---
 
@@ -149,14 +153,14 @@ Complete system with security, performance, and quality improvements.
 
 ### Implementation Tasks
 
-- [ ] T051 Add comprehensive input validation and sanitization
-- [ ] T052 Implement security best practices (CORS, headers, etc.)
-- [ ] T053 Complete documentation for API endpoints
-- [ ] T054 Create deployment configuration files
-- [ ] T055 Add comprehensive error logging and debugging utilities
-- [ ] T056 Perform security review for environment variable handling
-- [ ] T057 Conduct end-to-end testing of complete workflow
-- [ ] T058 Prepare deployment scripts and instructions
+- [ ] T055 Add comprehensive input validation and sanitization
+- [ ] T056 Implement security best practices (CORS, headers, etc.)
+- [ ] T057 Complete documentation for API endpoints
+- [ ] T058 Create deployment configuration files
+- [ ] T059 Add comprehensive error logging and debugging utilities
+- [ ] T060 Perform security review for environment variable handling
+- [ ] T061 Conduct end-to-end testing of complete workflow
+- [ ] T062 Prepare deployment scripts and instructions
 
 ---
 

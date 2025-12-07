@@ -2,7 +2,7 @@
 .env
 backend/.env
 .venv
-
+.sdd
 # Gemini settings
 .gemini/settings.json
 .qwen/settings.json

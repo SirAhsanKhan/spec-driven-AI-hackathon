@@ -95,7 +95,6 @@ const config = {
             position: 'left',
             label: 'Research Paper',
           },
-          {to: '/chat', label: 'Chatbot', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
