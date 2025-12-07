@@ -1,23 +1,78 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.hero {
+  padding: 4rem 2rem;
+  background: #111;
+  color: white;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroContent {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  flex: 0 0 330px;
+}
+
+.bookImage {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.right {
+  max-width: 600px;
+}
+
+.badge {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.tags {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.tags span {
+  padding: 0.5rem 1rem;
+  background: #222;
+  border-radius: 20px;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 1rem;
+}
+
+.explore {
+  padding: 0.8rem 1.4rem;
+  background: #222;
+  border-radius: 26px;
+  border: 1px solid #444;
+  color: white;
+}
+
+.primary {
+  padding: 0.8rem 1.4rem;
+  background: white;
+  color: black;
+  border-radius: 26px;
+  font-weight: bold;
 }

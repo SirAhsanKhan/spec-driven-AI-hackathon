@@ -1,27 +1,17 @@
 import React from "react";
 import Link from "@docusaurus/Link";
 
-export default function Hero() {
+export default function HeroSection() {
   return (
     <>
       {/* ================= HEADER ================= */}
       <header style={styles.header}>
         <div style={styles.navbar}>
           <div style={styles.logo}>SirAhsanKhan</div>
-
           <nav style={styles.navLinks}>
-            <Link style={styles.navItem} to="/">Home</Link>
-            <Link style={styles.navItem} to="/docs/physical-ai-humanoid-robotics/commercial-viability">Docs</Link>
-            <Link style={styles.navItem} to="/blog">Blog</Link>
-
-            <a
-              style={styles.navItem}
-              href="https://github.com/SirAhsanKhan"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
+            <a href="#home" style={styles.navItem}>Home</a>
+            <a href="#about" style={styles.navItem}>About</a>
+            <a href="#contact" style={styles.navItem}>Contact</a>
           </nav>
         </div>
       </header>
@@ -56,7 +46,6 @@ export default function Hero() {
             </div>
 
             <div style={styles.buttons}>
-              {/* External GitHub */}
               <a
                 href="https://github.com/SirAhsanKhan/spec-driven-AI-hackathon"
                 target="_blank"
