@@ -23,12 +23,16 @@ async def find_relevant_content(query_embedding: List[float], top_k: int = 5) ->
             chunk_id = result["id"]
             score = result["score"]
             payload = result["payload"]
-            
-            # For now, we're using the content from Qdrant payload
-            # In a real implementation, you might want to fetch the full content from SQLite
+
+            # Extract content from Qdrant payload
+            chunk_content = payload.get("chunk_text", "")
+
+            # Log the content to verify it's being retrieved
+            logger.info(f"Retrieved chunk content (first 100 chars): {chunk_content[:100] if chunk_content else 'EMPTY'}")
+
             relevant_content.append({
                 "chunk_id": chunk_id,
-                "content": payload.get("chunk_text", ""),
+                "content": chunk_content,
                 "source_url": payload.get("source_url", ""),
                 "chunk_order": payload.get("chunk_order", 0),
                 "similarity_score": score,
@@ -36,6 +40,7 @@ async def find_relevant_content(query_embedding: List[float], top_k: int = 5) ->
             })
     finally:
         db.close()
-    
+
     logger.info(f"Found {len(relevant_content)} relevant content chunks")
+    logger.info(f"First chunk content (first 200 chars if any): {relevant_content[0]['content'][:200] if relevant_content else 'No chunks found'}")
     return relevant_content

@@ -9,13 +9,21 @@ logger = get_logger(__name__)
 
 # Initialize Qdrant client
 try:
-    qdrant_client = QdrantClient(
-        host=QDRANT_HOST,
-        port=QDRANT_PORT,
-        api_key=QDRANT_API_KEY,
-        # If using Qdrant Cloud, you would use url instead of host/port
-        # url="https://your-cluster-name.qdrant.tech:6333"
-    )
+    # Check if QDRANT_HOST contains a protocol (http/https), which indicates Qdrant Cloud
+    if QDRANT_HOST.startswith(('http://', 'https://')):
+        # For Qdrant Cloud, use url parameter instead of host/port
+        qdrant_client = QdrantClient(
+            url=QDRANT_HOST,
+            api_key=QDRANT_API_KEY,
+            prefer_grpc=False  # Use HTTP API for cloud
+        )
+    else:
+        # For local Qdrant, use host/port
+        qdrant_client = QdrantClient(
+            host=QDRANT_HOST,
+            port=QDRANT_PORT,
+            api_key=QDRANT_API_KEY,
+        )
 except Exception as e:
     logger.error(f"Failed to initialize Qdrant client: {e}")
     qdrant_client = None
@@ -71,10 +79,8 @@ async def store_embedding(chunk_id: str, embedding: List[float], content_metadat
                     "content_id": content_metadata.get("content_id"),
                     "chunk_order": content_metadata.get("chunk_order"),
                     "source_url": content_metadata.get("source_url"),
-                    # Note: Raw content is not stored here to avoid duplication
-                    # Content is stored separately in SQLite, only embeddings in Qdrant
-                    **{k: v for k, v in content_metadata.items()
-                       if k not in ['chunk_text']}  # Exclude chunk_text to avoid duplication
+                    # Include chunk_text in payload as it's needed for response generation
+                    "chunk_text": content_metadata.get("chunk_text", "")
                 }
             )
         ]
@@ -110,8 +116,8 @@ async def store_embeddings_batch(chunk_embeddings: List[tuple], content_metadata
                     "content_id": metadata.get("content_id"),
                     "chunk_order": metadata.get("chunk_order"),
                     "source_url": metadata.get("source_url"),
-                    **{k: v for k, v in metadata.items()
-                       if k not in ['chunk_text']}  # Exclude chunk_text to avoid duplication
+                    # Include chunk_text in payload as it's needed for response generation
+                    "chunk_text": metadata.get("chunk_text", "")
                 }
             ))
 
@@ -126,6 +132,30 @@ async def store_embeddings_batch(chunk_embeddings: List[tuple], content_metadata
         # or have a fallback storage mechanism
         return False
 
+async def clear_collection():
+    """
+    Clear all points from the Qdrant collection (useful when schema changes)
+    """
+    if not qdrant_client:
+        logger.error("Qdrant client not available, cannot clear collection")
+        return False
+
+    try:
+        # Delete all points in the collection
+        qdrant_client.delete(
+            collection_name=COLLECTION_NAME,
+            points_selector=models.FilterSelector(
+                filter=models.Filter(
+                    must=[]
+                )
+            )
+        )
+        logger.info(f"Cleared all points from collection '{COLLECTION_NAME}'")
+        return True
+    except Exception as e:
+        logger.error(f"Error clearing Qdrant collection: {e}")
+        return False
+
 async def search_similar_embeddings(query_embedding: List[float], top_k: int = 5):
     """
     Search for similar embeddings in Qdrant
@@ -136,18 +166,21 @@ async def search_similar_embeddings(query_embedding: List[float], top_k: int = 5
         return []
 
     try:
-        search_result = qdrant_client.search(
+        # Use the correct query API for newer versions of qdrant-client
+        search_result = qdrant_client.query_points(
             collection_name=COLLECTION_NAME,
-            query_vector=query_embedding,
+            query=query_embedding,
             limit=top_k
         )
 
         results = []
-        for hit in search_result:
+        # For newer qdrant-client, search_result should be a QueryResponse object
+        # with a points attribute containing the search results
+        for point in search_result.points:
             results.append({
-                "id": hit.id,
-                "score": hit.score,
-                "payload": hit.payload
+                "id": point.id,
+                "score": point.score,
+                "payload": point.payload
             })
 
         return results

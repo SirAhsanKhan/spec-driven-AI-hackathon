@@ -1,7 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
+from pydantic import BaseModel
 from database.connection import SessionLocal
-from config import get_content_url
+from config import get_content_url, get_content_urls
 from services.scraping_service import scrape_content_from_url
 from services.content_service import clean_content, preprocess_content, create_content_chunks
 from database.content_repository import store_content_entity, store_content_chunks, update_content_status
@@ -10,6 +11,9 @@ from services.vector_service import store_embeddings_batch
 from typing import Optional
 import uuid
 from utils.logging import get_logger
+
+class InitializeRequest(BaseModel):
+    url: Optional[str] = None
 
 router = APIRouter()
 logger = get_logger(__name__)
@@ -25,18 +29,44 @@ def get_db():
         db.close()
 
 @router.post("/initialize")
-async def initialize_content():
+async def initialize_content(request: InitializeRequest = None):
     """
-    Initialize content from the pre-stored URL in environment variables
+    Initialize content from a specified URL or from all configured URLs if no specific URL is provided
     """
-    content_url = get_content_url()
-    if not content_url:
-        raise HTTPException(status_code=400, detail="CONTENT_URL not configured in environment")
+    # Use the URL from request body if provided, otherwise use all configured URLs
+    if request and request.url:
+        content_urls = [request.url]
+    else:
+        content_urls = get_content_urls()
+        
+    if not content_urls:
+        raise HTTPException(status_code=400, detail="No URLs provided and no configured URLs found")
+
+    # If initializing a single URL
+    if len(content_urls) == 1:
+        content_url = content_urls[0]
+        job_id = str(uuid.uuid4())
+        initialization_jobs[job_id] = {"status": "processing", "progress": 0, "url": content_url}
+        
+        # Process the single URL in the background
+        await _process_single_url(content_url, job_id)
+        
+        return {"status": "initializing", "job_id": job_id}
     
-    job_id = str(uuid.uuid4())
-    initialization_jobs[job_id] = {"status": "processing", "progress": 0, "url": content_url}
-    
-    # Process content in the background
+    # If initializing all URLs
+    else:
+        job_id = str(uuid.uuid4())
+        initialization_jobs[job_id] = {"status": "processing", "progress": 0, "urls": content_urls, "current_url": None}
+        
+        # Process all URLs sequentially in the background
+        await _process_all_urls(content_urls, job_id)
+        
+        return {"status": "initializing", "job_id": job_id}
+
+async def _process_single_url(content_url: str, job_id: str):
+    """
+    Process a single URL - helper function extracted from original initialize_content
+    """
     try:
         # Step 1: Scrape content
         raw_content = await scrape_content_from_url(content_url)
@@ -44,9 +74,9 @@ async def initialize_content():
             initialization_jobs[job_id]["status"] = "failed"
             initialization_jobs[job_id]["error"] = "Failed to scrape content from URL"
             return {"status": "failed", "message": "Failed to scrape content from URL", "job_id": job_id}
-        
+
         initialization_jobs[job_id]["progress"] = 20
-        
+
         # Step 2: Clean and preprocess content
         cleaned_content = clean_content(raw_content)
         processed_content = preprocess_content(cleaned_content)
@@ -59,9 +89,10 @@ async def initialize_content():
             return {"status": "failed", "message": "Content validation failed", "job_id": job_id}
 
         initialization_jobs[job_id]["progress"] = 40
-        
+
         # Step 3: Create content entity in database
-        db = next(get_db())
+        from database.connection import SessionLocal
+        db = SessionLocal()
         try:
             content_entity = store_content_entity(
                 db=db,
@@ -70,15 +101,15 @@ async def initialize_content():
                 content=processed_content
             )
             initialization_jobs[job_id]["progress"] = 50
-            
+
             # Step 4: Create chunks
             chunks = create_content_chunks(processed_content)
             initialization_jobs[job_id]["progress"] = 55
-            
+
             # Step 5: Store chunks in SQLite
             stored_chunks = store_content_chunks(db, content_entity.id, chunks)
             initialization_jobs[job_id]["progress"] = 60
-            
+
             # Step 6: Generate embeddings for chunks
             chunk_texts = [chunk.chunk_text for chunk in stored_chunks]
             embeddings = await generate_embeddings(chunk_texts)
@@ -91,27 +122,52 @@ async def initialize_content():
                 "content_id": chunk.content_id,
                 "chunk_order": chunk.chunk_order,
                 "source_url": content_url,
-                "chunk_text": chunk.chunk_text  # This will be filtered out in vector_service
+                "chunk_text": chunk.chunk_text  # This will be stored in Qdrant payload
             } for chunk in stored_chunks]
 
             await store_embeddings_batch(chunk_embeddings, content_metadata_list)
             initialization_jobs[job_id]["progress"] = 95
-            
+
             # Step 8: Update content status to completed
             update_content_status(db, content_entity.id, "completed")
             initialization_jobs[job_id]["progress"] = 100
             initialization_jobs[job_id]["status"] = "completed"
-            
+
         finally:
             db.close()
-        
-        return {"status": "initializing", "job_id": job_id}
-    
     except Exception as e:
-        logger.error(f"Error during content initialization: {str(e)}")
+        logger.error(f"Error processing single URL {content_url}: {str(e)}")
         initialization_jobs[job_id]["status"] = "failed"
         initialization_jobs[job_id]["error"] = str(e)
-        return {"status": "failed", "message": str(e), "job_id": job_id}
+
+async def _process_all_urls(content_urls: list, job_id: str):
+    """
+    Process all URLs sequentially - helper function to handle multiple URLs
+    """
+    try:
+        total_urls = len(content_urls)
+
+        for idx, content_url in enumerate(content_urls):
+            # Update progress based on URL index
+            base_progress = int((idx / total_urls) * 100)
+            initialization_jobs[job_id]["current_url"] = content_url
+
+            logger.info(f"Processing URL {idx + 1}/{total_urls}: {content_url}")
+
+            # Process this single URL
+            await _process_single_url(content_url, job_id)
+
+            # Update progress - adjust to reflect the progress per URL
+            # We'll calculate progress per URL (each URL contributes 100/total_urls percent to total)
+            progress_per_url = 100 // total_urls
+            initialization_jobs[job_id]["progress"] = min(100, base_progress + progress_per_url)
+
+        initialization_jobs[job_id]["status"] = "completed"
+
+    except Exception as e:
+        logger.error(f"Error processing all URLs: {str(e)}")
+        initialization_jobs[job_id]["status"] = "failed"
+        initialization_jobs[job_id]["error"] = str(e)
 
 @router.get("/initialize/{job_id}")
 async def get_initialization_status(job_id: str):
@@ -120,6 +176,6 @@ async def get_initialization_status(job_id: str):
     """
     if job_id not in initialization_jobs:
         raise HTTPException(status_code=404, detail="Job ID not found")
-    
+
     job_info = initialization_jobs[job_id]
     return job_info
