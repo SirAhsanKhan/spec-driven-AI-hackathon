@@ -16,15 +16,26 @@ def create_db_engine():
         )
     else:
         # PostgreSQL settings (for production, including Neon)
+        # Adjust connection settings for serverless environments like Vercel
+        connect_args = {
+            "connect_timeout": 10,  # Timeout for establishing connection
+        }
+
+        # For Neon specifically, we may need to add extra parameters
+        if "neon" in DATABASE_URL.lower():
+            connect_args["sslmode"] = "require"
+
         engine = create_engine(
             DATABASE_URL,
-            pool_size=5,
-            max_overflow=10,
-            pool_pre_ping=True,
-            pool_recycle=300,  # Recycle connections every 5 minutes
-            echo=False  # Set to True only for debugging
+            pool_size=2,           # Smaller pool size for serverless
+            max_overflow=5,        # Limit overflow connections
+            pool_pre_ping=True,    # Verify connections before use
+            pool_recycle=300,      # Recycle connections every 5 minutes
+            pool_timeout=30,       # Timeout for getting connection from pool
+            echo=False,            # Set to True only for debugging
+            connect_args=connect_args
         )
-    
+
     return engine
 
 # Create database engine
@@ -37,11 +48,14 @@ def init_db():
     """
     Initialize the database by creating all tables
     """
+    # In serverless environments like Vercel, we need to be careful about
+    # when and how we initialize the database to avoid cold start issues
+
     # Check if we're in a Vercel environment
     if os.getenv("VERCEL_ENV"):
         print("Running in Vercel environment - skipping table creation in init_db()")
-        # In Vercel, you should run migrations separately or during build
-        # rather than creating tables at runtime
+        # In Vercel, tables should be created via migrations during the build process
+        # rather than at runtime to avoid timeout issues
         return
-    
+
     Base.metadata.create_all(bind=engine)

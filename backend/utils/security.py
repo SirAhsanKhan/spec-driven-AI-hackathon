@@ -26,7 +26,7 @@ def setup_cors_middleware(app: FastAPI, allowed_origins: list = None):
     """
     if allowed_origins is None:
         # In production, you should specify your frontend domain
-        allowed_origins = ["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:8000"]
+        allowed_origins = ["http://localhost:3000", "http://localhost:3000/docs/physical-ai-humanoid-robotics", "http://localhost:8000"]
     
     app.add_middleware(
         CORSMiddleware,

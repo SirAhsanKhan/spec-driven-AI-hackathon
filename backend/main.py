@@ -60,21 +60,22 @@ except Exception as e:
     # Re-raise to prevent the app from starting in an incomplete state
     raise
 
-# Manual database initialization at startup (moved from startup event)
+# Configuration validation at startup
 try:
-    from database.connection import init_db
     from config import validate_config
-    
+
     # Validate configuration
     validate_config()
     print("Configuration validated successfully")
-    
-    # Initialize database (this might fail in serverless, but that's okay)
-    init_db()
-    print("Database initialized successfully")
+
+    # Note: In serverless environments like Vercel, database initialization
+    # should happen via migrations during the build process, not at runtime
+    # Table creation should be handled separately to avoid timeout issues
+
 except Exception as e:
-    print(f"Non-critical error during initialization: {e}")
-    # Continue startup even if initialization fails
+    print(f"Critial error during configuration validation: {e}")
+    # Stop startup if configuration is invalid
+    raise
 
 @app.get("/")
 def read_root():

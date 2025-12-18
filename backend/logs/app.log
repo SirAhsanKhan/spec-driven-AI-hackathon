@@ -16913,3 +16913,1588 @@ Overview: Tesla Optimus ("Bot") is T...
 2025-12-16 01:01:09,340 - watchfiles.main - INFO - 1 change detected
 2025-12-16 01:01:17,836 - watchfiles.main - INFO - 1 change detected
 2025-12-16 01:01:23,951 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:36:06,856 - utils.debugging - INFO - Application started at: 2025-12-19 00:36:06.856527
+2025-12-19 00:36:06,866 - utils.debugging - INFO - Database URL: postgresql://neondb_owner:npg_I2FwsTv0NMOt@ep-fancy-surf-a4mmw567-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-12-19 00:36:06,867 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-19 00:36:06,868 - utils.debugging - INFO - Process ID: 2788
+2025-12-19 00:36:06,870 - utils.debugging - INFO - Memory usage: 61.24 MB
+2025-12-19 00:36:07,871 - utils.debugging - INFO - CPU usage: 85.2%
+2025-12-19 00:36:07,871 - utils.debugging - INFO - Registered endpoints:
+2025-12-19 00:36:07,873 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-19 00:36:07,873 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-19 00:36:07,875 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-19 00:36:07,875 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-19 00:39:34,984 - utils.debugging - INFO - Application started at: 2025-12-19 00:39:34.984790
+2025-12-19 00:39:34,992 - utils.debugging - INFO - Database URL: postgresql://neondb_owner:npg_I2FwsTv0NMOt@ep-fancy-surf-a4mmw567-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-12-19 00:39:34,992 - utils.debugging - INFO - Python version: 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
+2025-12-19 00:39:34,992 - utils.debugging - INFO - Process ID: 5144
+2025-12-19 00:39:34,994 - utils.debugging - INFO - Memory usage: 41.61 MB
+2025-12-19 00:39:35,996 - utils.debugging - INFO - CPU usage: 78.6%
+2025-12-19 00:39:35,996 - utils.debugging - INFO - Registered endpoints:
+2025-12-19 00:39:35,996 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-19 00:39:35,996 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-19 00:39:35,996 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-19 00:39:35,996 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-19 00:40:11,477 - utils.debugging - INFO - Application started at: 2025-12-19 00:40:11.477922
+2025-12-19 00:40:11,479 - utils.debugging - INFO - Database URL: postgresql://neondb_owner:npg_I2FwsTv0NMOt@ep-fancy-surf-a4mmw567-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-12-19 00:40:11,479 - utils.debugging - INFO - Python version: 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
+2025-12-19 00:40:11,479 - utils.debugging - INFO - Process ID: 9460
+2025-12-19 00:40:11,479 - utils.debugging - INFO - Memory usage: 41.54 MB
+2025-12-19 00:40:12,481 - utils.debugging - INFO - CPU usage: 80.1%
+2025-12-19 00:40:12,482 - utils.debugging - INFO - Registered endpoints:
+2025-12-19 00:40:12,482 - utils.debugging - INFO -   GET, HEAD /openapi.json
+2025-12-19 00:40:12,482 - utils.debugging - INFO -   GET, HEAD /docs
+2025-12-19 00:40:12,482 - utils.debugging - INFO -   GET, HEAD /docs/oauth2-redirect
+2025-12-19 00:40:12,482 - utils.debugging - INFO -   GET, HEAD /redoc
+2025-12-19 00:40:25,762 - httpx - INFO - HTTP Request: GET https://207ecfa5-f27a-4d55-af66-5cf80ee55475.europe-west3-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-12-19 00:40:48,501 - utils.debugging - INFO - Application started at: 2025-12-19 00:40:48.501948
+2025-12-19 00:40:48,501 - utils.debugging - INFO - Database URL: postgresql://neondb_owner:npg_I2FwsTv0NMOt@ep-fancy-surf-a4mmw567-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-12-19 00:40:48,501 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-19 00:40:48,501 - utils.debugging - INFO - Process ID: 10548
+2025-12-19 00:40:48,501 - utils.debugging - INFO - Memory usage: 61.00 MB
+2025-12-19 00:40:49,507 - utils.debugging - INFO - CPU usage: 88.0%
+2025-12-19 00:40:49,507 - utils.debugging - INFO - Registered endpoints:
+2025-12-19 00:40:49,507 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-19 00:40:49,511 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-19 00:40:49,512 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-19 00:40:49,512 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-19 00:41:35,761 - utils.debugging - INFO - Application started at: 2025-12-19 00:41:35.761538
+2025-12-19 00:41:35,762 - utils.debugging - INFO - Database URL: postgresql://neondb_owner:npg_I2FwsTv0NMOt@ep-fancy-surf-a4mmw567-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-12-19 00:41:35,762 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-19 00:41:35,762 - utils.debugging - INFO - Process ID: 6000
+2025-12-19 00:41:35,762 - utils.debugging - INFO - Memory usage: 61.03 MB
+2025-12-19 00:41:36,768 - utils.debugging - INFO - CPU usage: 85.9%
+2025-12-19 00:41:36,768 - utils.debugging - INFO - Registered endpoints:
+2025-12-19 00:41:36,768 - utils.debugging - INFO -   GET, HEAD /openapi.json
+2025-12-19 00:41:36,768 - utils.debugging - INFO -   GET, HEAD /docs
+2025-12-19 00:41:36,768 - utils.debugging - INFO -   GET, HEAD /docs/oauth2-redirect
+2025-12-19 00:41:36,768 - utils.debugging - INFO -   GET, HEAD /redoc
+2025-12-19 00:41:52,516 - httpx - INFO - HTTP Request: GET https://207ecfa5-f27a-4d55-af66-5cf80ee55475.europe-west3-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-12-19 00:41:54,384 - uvicorn.error - INFO - Will watch for changes in these directories: ['D:\\ai-hackathon\\sdd\\backend']
+2025-12-19 00:41:54,386 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-12-19 00:41:54,389 - uvicorn.error - INFO - Started reloader process [6000] using WatchFiles
+2025-12-19 00:41:56,049 - utils.debugging - INFO - Application started at: 2025-12-19 00:41:56.049442
+2025-12-19 00:41:56,050 - utils.debugging - INFO - Database URL: postgresql://neondb_owner:npg_I2FwsTv0NMOt@ep-fancy-surf-a4mmw567-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-12-19 00:41:56,052 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-19 00:41:56,054 - utils.debugging - INFO - Process ID: 4724
+2025-12-19 00:41:56,055 - utils.debugging - INFO - Memory usage: 51.96 MB
+2025-12-19 00:41:56,146 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:56,504 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:56,867 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:57,057 - utils.debugging - INFO - CPU usage: 86.8%
+2025-12-19 00:41:57,057 - utils.debugging - INFO - Registered endpoints:
+2025-12-19 00:41:57,057 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-19 00:41:57,057 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-19 00:41:57,061 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-19 00:41:57,062 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-19 00:41:57,225 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:57,585 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:57,939 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:58,292 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:58,645 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:59,010 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:59,381 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:41:59,744 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:00,097 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:00,455 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:00,810 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:01,171 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:01,550 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:01,997 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:02,364 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:02,732 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:03,124 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:03,486 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:03,843 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:04,196 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:04,565 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:04,925 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:05,281 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:05,646 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:06,002 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:06,354 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:06,718 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:06,999 - httpx - INFO - HTTP Request: GET https://207ecfa5-f27a-4d55-af66-5cf80ee55475.europe-west3-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-12-19 00:42:07,086 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:07,456 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:07,818 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:08,171 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:08,531 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:08,883 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:08,884 - uvicorn.error - INFO - Started server process [4724]
+2025-12-19 00:42:08,886 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-19 00:42:08,890 - uvicorn.error - INFO - Application startup complete.
+2025-12-19 00:42:09,239 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:09,600 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:09,964 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:10,317 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:10,684 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:11,050 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:11,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:11,783 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:12,183 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:12,550 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:12,907 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:13,266 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:13,634 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:14,021 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:14,383 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:14,521 - utils.exception_handlers - ERROR - General error occurred: (psycopg2.errors.UndefinedTable) relation "content_entities" does not exist
+LINE 2: FROM content_entities ORDER BY content_entities.updated_at D...
+             ^
+
+[SQL: SELECT content_entities.id AS content_entities_id, content_entities.url AS content_entities_url, content_entities.title AS content_entities_title, content_entities.content AS content_entities_content, content_entities.created_at AS content_entities_created_at, content_entities.updated_at AS content_entities_updated_at, content_entities.status AS content_entities_status 
+FROM content_entities ORDER BY content_entities.updated_at DESC 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-12-19 00:42:14,750 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:15,115 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:15,515 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:14,521 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "content_entities" does not exist
+LINE 2: FROM content_entities ORDER BY content_entities.updated_at D...
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\fastapi\applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+  File "C:\Users\STC\AppData\Roaming\uv\python\cpython-3.11.12-windows-x86_64-none\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\_utils.py", line 85, in collapse_excgroups
+    raise exc
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\utils\rate_limit.py", line 42, in rate_limit_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\trustedhost.py", line 51, in __call__
+    await self.app(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+  File "C:\Users\STC\AppData\Roaming\uv\python\cpython-3.11.12-windows-x86_64-none\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\_utils.py", line 85, in collapse_excgroups
+    raise exc
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\utils\security.py", line 14, in security_headers
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\fastapi\routing.py", line 106, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\fastapi\routing.py", line 430, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\fastapi\routing.py", line 316, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\api\status_api.py", line 20, in get_system_status
+    latest_content = get_latest_content(db)
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\database\content_repository.py", line 69, in get_latest_content
+    content_entity = db.query(ContentEntity).order_by(ContentEntity.updated_at.desc()).first()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2351, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2249, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+           ^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "D:\ai-hackathon\sdd\backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 951, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "content_entities" does not exist
+LINE 2: FROM content_entities ORDER BY content_entities.updated_at D...
+             ^
+
+[SQL: SELECT content_entities.id AS content_entities_id, content_entities.url AS content_entities_url, content_entities.title AS content_entities_title, content_entities.content AS content_entities_content, content_entities.created_at AS content_entities_created_at, content_entities.updated_at AS content_entities_updated_at, content_entities.status AS content_entities_status 
+FROM content_entities ORDER BY content_entities.updated_at DESC 
+ LIMIT %(param_1)s]
+[parameters: {'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-12-19 00:42:15,879 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:16,235 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:16,600 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:17,007 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:17,165 - utils.exception_handlers - ERROR - HTTP error occurred: 404 - Not Found
+2025-12-19 00:42:17,364 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:17,731 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:18,094 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:18,448 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:18,802 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:19,165 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:19,531 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:19,943 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:20,393 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:20,775 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:21,199 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:21,656 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:31,851 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-19 00:42:31,952 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:32,311 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:32,515 - httpx - INFO - HTTP Request: POST https://207ecfa5-f27a-4d55-af66-5cf80ee55475.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content_chunks/points/query "HTTP/1.1 200 OK"
+2025-12-19 00:42:32,647 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): Scalable RL | Isaac Lab on Omniverse | Locomotion, balance, whole-body control | | Multi-robot simul
+2025-12-19 00:42:32,654 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): to: 1. **Define** Physical AI and distinguish it from digital AI systems 2. **Explain** the historic
+2025-12-19 00:42:32,654 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): Articulation Body Setup ```csharp ArticulationDrive drive = joint.xDrive; drive.stiffness = 1000f; d
+2025-12-19 00:42:32,656 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): hallucination | Use grounding via vision + environment state | | Ambiguous instructions | Implement 
+2025-12-19 00:42:32,656 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): from geometry_msgs.msg import Twist class PerceptionToControl(Node): def __init__(self): super().__i
+2025-12-19 00:42:32,659 - services.retrieval_service - INFO - Found 5 relevant content chunks
+2025-12-19 00:42:32,661 - services.retrieval_service - INFO - First chunk content (first 200 chars if any): Scalable RL | Isaac Lab on Omniverse | Locomotion, balance, whole-body control | | Multi-robot simulation | Nucleus Cloud | Crowd interaction, HRI | | Deployment | Jetson platform | On-device inferenc
+2025-12-19 00:42:32,664 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:33,026 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:33,394 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:33,760 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:34,127 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:34,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 00:42:34,315 - services.response_service - INFO - Generated response for query: hello...
+2025-12-19 00:42:34,316 - api.query_api - INFO - Processed query: hello...
+2025-12-19 00:42:34,493 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:34,856 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:35,214 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:35,572 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:35,935 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:36,313 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:36,686 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:37,055 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:37,417 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:37,782 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:38,148 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:38,516 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:38,877 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:39,234 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:39,586 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:39,973 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:40,330 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:40,684 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:41,040 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:41,405 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:41,760 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:42,126 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:42,492 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:42,850 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:43,212 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:43,572 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:43,931 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:44,296 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:44,652 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:45,010 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:45,372 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:45,739 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:46,098 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:46,474 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:46,828 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:47,186 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:47,540 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:47,895 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:48,262 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:48,621 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:48,988 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:49,316 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-12-19 00:42:49,340 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:49,704 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:49,855 - httpx - INFO - HTTP Request: POST https://207ecfa5-f27a-4d55-af66-5cf80ee55475.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/content_chunks/points/query "HTTP/1.1 200 OK"
+2025-12-19 00:42:49,979 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): # Commercial Viability: Drivers and Barriers Humanoid robots' transition from prototypes to economic
+2025-12-19 00:42:49,979 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): **Teleoperation/Supervised Autonomy:** Often deployed with a human-in-the-loop for supervision and c
+2025-12-19 00:42:49,979 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): Robotics The 2025-2030 period is pivotal for physical AI and humanoid robotics. This paper synthesiz
+2025-12-19 00:42:49,979 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): debugging. Lack of transparency in complex AI can hinder identifying misaligned behaviors (Anon. et 
+2025-12-19 00:42:49,979 - services.retrieval_service - INFO - Retrieved chunk content (first 100 chars): https://standards.ieee.org/industry-connections/ec/autonomous-systems/ (Verified Standard) U.S. Nati
+2025-12-19 00:42:49,979 - services.retrieval_service - INFO - Found 5 relevant content chunks
+2025-12-19 00:42:49,989 - services.retrieval_service - INFO - First chunk content (first 200 chars if any): # Commercial Viability: Drivers and Barriers Humanoid robots' transition from prototypes to economically viable products is a complex journey. This section examines key market adoption drivers and bar
+2025-12-19 00:42:50,069 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:50,421 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:50,778 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:51,168 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:51,537 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:51,904 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:52,270 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:52,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-19 00:42:52,490 - services.response_service - INFO - Generated response for query: Commercial Viability: Drivers and Barrier what is ...
+2025-12-19 00:42:52,492 - api.query_api - INFO - Processed query: Commercial Viability: Drivers and Barrier what is ...
+2025-12-19 00:42:52,624 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:52,981 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:53,348 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:53,703 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:54,060 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:54,429 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:54,810 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:55,162 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:55,528 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:55,883 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:56,244 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:56,611 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:56,977 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:57,344 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:57,708 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:58,062 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:58,429 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:58,795 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:59,161 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:59,527 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:42:59,883 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:00,251 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:00,607 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:00,964 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:01,320 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:01,697 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:02,071 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:02,447 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:02,803 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:03,159 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:03,525 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:03,891 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:04,256 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:04,623 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:04,981 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:05,344 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:05,710 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:06,077 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:06,443 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:06,809 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:07,175 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:07,532 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:07,889 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:08,241 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:08,608 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:08,975 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:09,343 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:09,709 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:10,075 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:10,442 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:10,808 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:11,174 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:11,542 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:11,908 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:12,273 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:12,641 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:13,007 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:13,374 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:13,760 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:14,126 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:14,479 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:14,844 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:15,207 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:15,563 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:15,934 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:16,288 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:16,645 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:17,001 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:17,367 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:17,722 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:18,089 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:18,453 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:18,818 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:19,183 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:19,539 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:19,894 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:20,283 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:20,648 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:21,011 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:21,400 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:21,766 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:22,123 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:22,490 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:22,846 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:23,222 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:23,627 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:24,000 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:24,352 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:24,718 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:25,085 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:25,451 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:25,816 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:26,182 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:26,538 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:26,905 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:27,270 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:27,636 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:28,001 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:28,366 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:28,731 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:29,086 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:29,452 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:29,818 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:30,184 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:30,549 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:30,915 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:31,270 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:31,627 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:31,992 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:32,347 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:32,703 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:33,060 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:33,425 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:33,782 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:34,148 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:34,514 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:34,879 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:35,235 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:35,592 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:35,948 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:36,314 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:36,713 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:37,067 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:37,431 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:37,798 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:38,165 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:38,529 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:38,894 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:39,248 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:39,614 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:39,980 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:40,345 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:40,711 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:41,078 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:41,464 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:41,841 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:42,194 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:42,560 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:42,935 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:43,290 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:43,644 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:43,999 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:44,353 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:44,720 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:45,074 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:45,429 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:45,793 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:46,162 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:46,523 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:46,886 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:47,241 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:47,596 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:47,993 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:48,358 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:48,725 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:49,092 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:49,456 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:49,810 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:50,166 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:50,522 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:50,885 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:51,243 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:51,609 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:51,976 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:52,340 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:52,696 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:53,061 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:53,428 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:53,782 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:54,137 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:54,492 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:54,858 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:55,224 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:55,592 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:55,957 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:56,322 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:56,678 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:57,045 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:57,410 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:57,776 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:58,143 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:58,508 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:58,873 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:59,240 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:59,636 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:43:59,989 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:00,344 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:00,709 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:01,073 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:01,440 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:01,807 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:02,203 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:02,559 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:02,925 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:03,289 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:03,655 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:04,020 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:04,387 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:04,744 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:05,108 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:05,472 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:05,836 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:06,192 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:06,559 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:06,922 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:07,289 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:07,656 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:08,021 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:08,414 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:08,773 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:09,139 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:09,506 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:09,873 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:10,236 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:10,603 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:10,974 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:11,334 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:11,701 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:12,056 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:12,414 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:12,779 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:13,134 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:13,500 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:13,867 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:14,243 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:14,608 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:14,964 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:15,319 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:15,685 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:16,042 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:16,398 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:16,754 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:17,120 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:17,486 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:17,858 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:18,218 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:18,575 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:18,952 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:19,318 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:19,685 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:20,051 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:20,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:20,781 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:21,147 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:21,514 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:21,881 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:22,236 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:22,604 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:22,980 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:23,337 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:23,702 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:24,067 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:24,434 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:24,799 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:25,165 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:25,532 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:25,928 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:26,288 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:26,650 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:27,016 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:27,382 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:27,753 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:28,105 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:28,463 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:28,819 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:29,176 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:29,529 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:29,893 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:30,246 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:30,598 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:30,953 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:31,306 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:31,672 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:32,031 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:32,388 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:32,741 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:33,095 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:33,458 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:33,831 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:34,196 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:34,550 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:44:34,974 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:26,184 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:26,544 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:26,900 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:27,255 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:27,620 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:27,986 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:28,355 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:28,709 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:29,075 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:29,437 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:29,795 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:30,162 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:30,517 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:30,879 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:31,236 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:31,598 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:31,975 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:32,343 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:32,709 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:33,075 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:33,442 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:33,807 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:34,160 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:34,526 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:34,895 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:35,251 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:35,617 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:35,973 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:36,333 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:36,697 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:37,054 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:37,423 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:37,817 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:38,177 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:38,538 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:38,905 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:39,258 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:39,619 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:39,976 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:40,339 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:40,694 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:41,047 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:41,408 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:41,769 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:42,135 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:42,494 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:42,854 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:43,209 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:43,574 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:43,959 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:44,322 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:44,679 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:45,033 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:45,387 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:45,754 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:46,119 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:46,475 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:46,832 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:47,187 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:47,553 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:47,919 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:48,287 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:48,683 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:49,045 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:49,399 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:49,755 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:50,110 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:50,476 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:50,833 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:51,188 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:51,542 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:51,903 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:52,271 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:52,629 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:52,994 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:53,351 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:53,773 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:54,185 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:54,564 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:54,935 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:55,357 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:55,732 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:56,089 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:56,490 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:56,881 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:57,241 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:57,610 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:57,975 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:58,336 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:58,690 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:59,042 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:59,407 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:45:59,762 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:00,125 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:00,501 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:00,877 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:01,233 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:01,593 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:01,954 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:02,314 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:02,672 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:03,038 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:03,393 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:03,756 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:04,117 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:04,480 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:04,840 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:05,194 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:05,557 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:05,914 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:06,266 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:06,631 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:06,992 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:07,347 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:07,700 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:08,053 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:08,409 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:08,763 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:09,121 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:09,481 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:09,836 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:10,189 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:10,546 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:10,901 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:11,257 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:11,610 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:11,964 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:12,318 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:12,670 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:13,025 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:13,379 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:13,738 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:14,097 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:14,454 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:14,810 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:15,168 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:15,528 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:15,895 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:16,255 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:16,609 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:16,964 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:17,319 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:17,673 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:18,028 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:18,386 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:18,778 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:19,131 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:19,489 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:19,870 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:20,224 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:20,596 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:21,025 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:21,413 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:21,778 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:22,209 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:22,596 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:22,995 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:23,354 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:23,719 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:24,106 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:24,459 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:24,811 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:25,165 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:25,525 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:25,878 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:26,231 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:26,588 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:26,971 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:27,362 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:27,717 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:28,072 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:28,424 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:28,777 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:29,141 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:29,494 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:29,846 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:30,253 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:30,606 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:30,958 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:31,311 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:31,701 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:32,093 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:32,478 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:32,840 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:33,222 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:33,575 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:33,931 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:34,285 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:34,639 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:34,991 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:35,360 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:35,736 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:36,089 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:36,441 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:36,794 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:37,151 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:37,504 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:37,857 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:38,216 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:38,586 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:38,967 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:39,324 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:39,681 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:40,034 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:40,403 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:40,756 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:41,109 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:41,466 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:41,818 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:42,171 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:42,524 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:42,879 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:43,232 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:43,585 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:43,942 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:44,354 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:44,707 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:45,062 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:45,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:45,768 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:46,121 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:46,499 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:46,886 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:47,239 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:47,595 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:47,948 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:48,301 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:48,653 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:49,006 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:49,361 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:49,715 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:50,069 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:50,422 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:50,777 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:51,131 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:51,483 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:51,836 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:52,189 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:52,546 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:52,899 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:53,252 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:53,605 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:53,959 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:54,312 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:54,664 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:55,018 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:55,398 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:55,785 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:56,138 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:56,494 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:56,848 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:57,201 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:57,554 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:57,910 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:58,262 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:58,636 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:58,994 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:59,348 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:46:59,700 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:00,053 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:00,410 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:00,762 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:01,115 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:01,499 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:01,901 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:02,289 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:02,643 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:02,997 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:03,351 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:03,706 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:04,059 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:04,412 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:04,764 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:05,117 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:05,473 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:05,828 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:06,181 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:06,534 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:06,890 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:07,242 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:07,596 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:07,949 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:08,302 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:08,654 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:09,006 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:09,359 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:09,712 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:10,066 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:10,419 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:10,772 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:11,124 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:11,477 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:11,830 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:12,185 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:12,538 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:12,891 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:13,244 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:13,598 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:13,982 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:14,335 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:14,688 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:15,042 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:15,395 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:15,748 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:16,102 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:16,455 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:16,824 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:17,181 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:17,539 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:17,893 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:18,267 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:18,620 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:18,978 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:19,344 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:19,710 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:20,079 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:20,439 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:20,795 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:21,149 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:21,506 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:21,884 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:22,247 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:22,607 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:22,970 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:23,338 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:23,692 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:24,055 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:24,422 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:24,787 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:25,153 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:25,518 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:25,885 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:26,239 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:26,596 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:26,973 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:27,328 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:27,681 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:28,037 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:28,396 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:28,758 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:29,124 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:29,484 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:29,840 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:30,206 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:30,562 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:30,918 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:31,270 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:31,629 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:31,990 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:32,355 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:32,709 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:33,085 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:33,483 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:33,845 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:34,210 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:34,571 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:34,930 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:35,303 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:35,658 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:36,017 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:36,383 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:36,739 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:37,103 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:37,463 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:37,828 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:38,183 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:38,538 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:38,892 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:39,246 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:39,600 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:39,956 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:40,315 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:40,685 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:41,051 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:41,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:41,770 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:42,135 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:42,500 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:42,856 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:43,221 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:43,582 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:43,943 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:44,301 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:44,663 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:45,036 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:45,391 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:45,747 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:46,112 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:46,466 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:46,844 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:47,206 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:47,563 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:47,918 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:48,284 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:48,637 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:49,003 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:49,387 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:49,750 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:50,111 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:50,477 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:50,831 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:51,195 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:51,556 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:51,920 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:52,281 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:52,647 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:53,011 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:53,370 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:53,729 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:54,085 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:54,443 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:54,800 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:55,155 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:55,537 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:55,901 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:56,267 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:56,632 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:56,985 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:57,339 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:57,703 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:58,060 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:58,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:58,782 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:59,136 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:59,490 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:47:59,843 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:00,205 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:00,565 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:00,923 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:01,287 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:01,645 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:02,014 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:02,379 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:02,732 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:03,094 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:03,447 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:03,813 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:04,173 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:04,539 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:04,900 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:05,261 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:05,627 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:05,994 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:06,359 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:06,724 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:07,089 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:07,446 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:07,802 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:08,158 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:08,526 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:08,882 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:09,238 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:09,593 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:09,958 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:10,323 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:10,689 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:11,054 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:11,411 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:11,767 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:12,126 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:12,491 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:12,856 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:13,222 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:13,589 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:13,955 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:14,353 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:14,707 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:15,063 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:15,419 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:15,775 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:16,141 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:16,507 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:16,874 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:17,239 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:17,603 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:17,969 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:18,336 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:18,692 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:19,089 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:19,454 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:19,821 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:20,186 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:20,540 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:20,906 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:21,270 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:21,637 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:22,008 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:22,372 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:22,746 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:23,178 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:23,544 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:23,922 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:24,316 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:24,671 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:25,033 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:25,398 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:25,761 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:26,127 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:26,499 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:26,878 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:27,250 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:48:27,625 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:52,317 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:52,683 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:53,188 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:53,560 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:53,915 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:54,269 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:54,628 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:54,981 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:55,344 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:55,713 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:56,066 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:56,429 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:56,781 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:57,136 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:57,515 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:57,874 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:58,228 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:58,594 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:58,962 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:59,323 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:55:59,677 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:00,044 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:00,412 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:00,766 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:01,126 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:01,503 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:01,856 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:02,214 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:02,576 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:02,941 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:03,297 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:03,656 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:04,019 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:04,387 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:04,754 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:05,120 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:05,487 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:05,862 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:06,219 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:06,586 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:06,952 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:07,317 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:07,674 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:08,048 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:08,410 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:08,774 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:09,126 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:09,501 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:09,908 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:10,262 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:10,615 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:10,970 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:11,323 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:11,705 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:12,060 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:12,426 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:12,784 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:13,138 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:13,536 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:13,893 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:14,256 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:14,608 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:14,963 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:15,320 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:15,673 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:16,037 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:16,407 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:16,771 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:17,131 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:17,495 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:17,853 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:18,220 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:18,586 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:18,953 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:19,305 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:19,670 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:20,035 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:20,391 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:20,758 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:21,125 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:21,480 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:21,843 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:22,202 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:22,558 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:22,925 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:23,312 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:23,679 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:24,034 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:24,392 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:24,752 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:25,121 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:25,487 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:25,853 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:26,211 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:26,566 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:26,927 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:27,305 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:27,668 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:28,026 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:28,387 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:28,750 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:29,125 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:29,496 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:29,873 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:30,233 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:30,585 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:30,941 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:31,309 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:31,677 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:32,032 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:32,392 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:32,754 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:33,107 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:33,464 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:33,831 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:34,198 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:34,554 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:34,906 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:35,263 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:35,617 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:36,000 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:36,362 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:36,723 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:37,079 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:37,431 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:37,783 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:38,145 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:38,515 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:38,879 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:39,237 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:39,604 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:39,958 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:40,320 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:40,686 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:41,042 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:41,432 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:41,788 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:42,152 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:42,505 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:42,866 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:43,227 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:43,586 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:43,985 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:44,345 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:44,699 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:45,055 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:45,408 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:45,761 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:46,149 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:47,481 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:47,833 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:48,220 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:48,585 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:48,942 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:49,299 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:49,660 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:50,012 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:50,367 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:50,735 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:51,101 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:51,467 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:51,821 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:52,189 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:52,554 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:52,949 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:53,334 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:53,700 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:54,065 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:54,434 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:54,799 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:55,165 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:55,531 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:55,898 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:56,293 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:56,650 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:57,016 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:57,381 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:57,768 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:58,133 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:58,501 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:58,860 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:59,248 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:59,607 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:56:59,961 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:00,328 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:00,691 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:01,046 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:01,406 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:01,786 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:02,145 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:02,500 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:02,858 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:03,212 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:03,574 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:03,938 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:04,291 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:04,655 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:05,025 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:05,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:05,784 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:06,138 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:06,506 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:06,859 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:07,217 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:07,576 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:07,929 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:08,325 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:08,682 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:09,045 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:09,409 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:09,762 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:10,122 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:10,487 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:10,871 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:11,235 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:11,603 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:11,962 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:12,346 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:12,708 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:13,060 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:13,424 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:13,784 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:14,141 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:14,493 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:14,848 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:15,234 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:15,621 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:15,983 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:16,360 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:16,716 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:17,085 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:17,440 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:17,792 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:18,153 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:18,558 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:18,919 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:19,287 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:19,645 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:19,998 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:20,351 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:20,720 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:21,080 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:21,442 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:21,807 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:22,174 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:22,539 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:22,906 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:23,282 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:23,636 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:23,994 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:24,356 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:24,711 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:25,063 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:25,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:25,772 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:26,131 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:26,483 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:26,840 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:27,201 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:27,566 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:27,933 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:28,297 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:28,656 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:29,014 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:29,388 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:29,787 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:30,139 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:30,495 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:30,849 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:31,213 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:31,582 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:31,945 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:32,302 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:32,656 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:33,027 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:33,384 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:33,739 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:34,094 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:34,446 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:34,810 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:35,178 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:35,534 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:35,889 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:36,245 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:36,597 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:36,961 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:37,320 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:37,686 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:38,053 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:38,417 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:38,771 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:39,127 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:39,494 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:39,848 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:40,209 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:40,575 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:40,933 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:41,292 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:41,655 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:42,021 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:42,387 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:42,753 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:43,109 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:43,477 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:43,833 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:44,198 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:44,551 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:44,916 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:45,269 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:45,632 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:45,991 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:46,345 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:46,697 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:47,070 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:47,423 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:47,781 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:48,158 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:48,518 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:48,889 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:49,255 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:49,623 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:49,978 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:50,337 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:50,690 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:51,047 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:51,416 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:51,771 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:52,131 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:52,520 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:52,594 - uvicorn.error - WARNING - WatchFiles detected changes in 'utils\security.py'. Reloading...
+2025-12-19 00:57:52,840 - uvicorn.error - INFO - Shutting down
+2025-12-19 00:57:52,980 - uvicorn.error - INFO - Waiting for application shutdown.
+2025-12-19 00:57:53,007 - uvicorn.error - INFO - Application shutdown complete.
+2025-12-19 00:57:53,017 - uvicorn.error - INFO - Finished server process [4724]
+2025-12-19 00:57:55,160 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:58,648 - watchfiles.main - INFO - 5 changes detected
+2025-12-19 00:57:58,653 - utils.debugging - INFO - Application started at: 2025-12-19 00:57:58.653305
+2025-12-19 00:57:58,654 - utils.debugging - INFO - Database URL: postgresql://neondb_owner:npg_I2FwsTv0NMOt@ep-fancy-surf-a4mmw567-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+2025-12-19 00:57:58,655 - utils.debugging - INFO - Python version: 3.11.12 (main, May 17 2025, 13:44:56) [MSC v.1943 64 bit (AMD64)]
+2025-12-19 00:57:58,657 - utils.debugging - INFO - Process ID: 5816
+2025-12-19 00:57:58,659 - utils.debugging - INFO - Memory usage: 51.97 MB
+2025-12-19 00:57:59,012 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:59,377 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:57:59,661 - utils.debugging - INFO - CPU usage: 86.8%
+2025-12-19 00:57:59,663 - utils.debugging - INFO - Registered endpoints:
+2025-12-19 00:57:59,666 - utils.debugging - INFO -   HEAD, GET /openapi.json
+2025-12-19 00:57:59,667 - utils.debugging - INFO -   HEAD, GET /docs
+2025-12-19 00:57:59,676 - utils.debugging - INFO -   HEAD, GET /docs/oauth2-redirect
+2025-12-19 00:57:59,678 - utils.debugging - INFO -   HEAD, GET /redoc
+2025-12-19 00:57:59,742 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:00,101 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:00,453 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:00,819 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:01,175 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:01,532 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:01,887 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:02,263 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:02,647 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:03,000 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:03,379 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:03,769 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:04,135 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:04,495 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:04,858 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:05,210 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:05,573 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:05,937 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:06,301 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:06,664 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:07,016 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:07,379 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:07,744 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:08,104 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:08,560 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:08,914 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:09,351 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:13,327 - httpx - INFO - HTTP Request: GET https://207ecfa5-f27a-4d55-af66-5cf80ee55475.europe-west3-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-12-19 00:58:13,424 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:13,783 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:14,142 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:14,505 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:14,864 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:15,209 - uvicorn.error - INFO - Started server process [5816]
+2025-12-19 00:58:15,217 - uvicorn.error - INFO - Waiting for application startup.
+2025-12-19 00:58:15,219 - uvicorn.error - INFO - Application startup complete.
+2025-12-19 00:58:15,226 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:15,580 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:15,931 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:16,285 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:16,651 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:17,015 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:17,381 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:17,747 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:18,113 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:18,480 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:18,846 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:19,214 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:19,583 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:19,949 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:20,306 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:20,672 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:21,030 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:21,396 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:21,760 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:22,112 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:22,474 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:22,839 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:23,192 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:23,544 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:23,897 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:24,255 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:24,621 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:24,988 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:25,345 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:25,711 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:26,078 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:26,446 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:26,811 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:27,179 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:27,549 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:27,906 - watchfiles.main - INFO - 1 change detected
+2025-12-19 00:58:28,261 - watchfiles.main - INFO - 1 change detected
